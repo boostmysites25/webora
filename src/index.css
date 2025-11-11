@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .wrapper {
+    @apply max-w-[90rem] mx-auto px-3 sm:px-8;
+  }
+  .heading-1 {
+    @apply text-[2.5rem] md:text-7xl leading-tight font-semibold;
+  }
+  .heading {
+    @apply text-[1.5rem] md:text-[2.5rem] leading-tight font-semibold;
+  }
+  .active-link {
+    @apply text-primary font-semibold;
+  }
+  .primary-btn {
+    @apply bg-gradient-to-r text-base cursor-pointer font-medium from-primary to-secondary min-w-[9rem] flex justify-center text-center px-5 py-3 text-white rounded-full transition-all duration-300 hover:-translate-y-1;
+  }
+  .secondary-btn {
+    @apply bg-[#5C5E60] text-base cursor-pointer font-medium min-w-[9rem] flex justify-center text-center px-5 py-3 text-white rounded-full transition-all duration-300 hover:-translate-y-1;
+  }
+  .tertiary-btn {
+    @apply bg-primary min-w-[9rem] flex justify-center text-center hover:bg-primary/80 text-base cursor-pointer font-medium px-5 py-3 text-white transition-all duration-300 hover:-translate-y-1;
+  }
+  .blurred-red-circle {
+    @apply bg-secondary/10 rounded-full blur-3xl absolute;
+  }
+  .blue-bg-shape {
+    @apply absolute h-[20rem] w-[10rem] rounded-full bg-primary/10;
+  }
+  .gradient-text {
+    @apply bg-gradient-to-r text-xl text-transparent from-primary to-secondary bg-clip-text text-center font-medium;
+  }
+  .description {
+    @apply text-lg leading-snug;
+  }
+}
+
+* {
+  font-family: "Montserrat", serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  background: #f7f7f7;
+  color: #111111;
+  font-size: 90%;
+}
+
+::-webkit-scrollbar{
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb{
+  @apply bg-secondary;
+  width: 6px;
+  border-radius: 6px;
+}
+
+/* landing page banner video */
+.banner video {
+  object-fit: cover;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+/* header mobile menu offcanvas */
+.EZDrawer .EZDrawer__container {
+  background: #f7f6f8 !important;
+  width: 80vw !important;
+}
+
+/* line height for heading */
+.heading {
+  line-height: 1.2;
+}
+
+/* fly animation styles */
+@keyframes fly {
+  0% {
+    transform: translateY(0);
+  }
+  33.3% {
+    transform: translateY(25%) rotate(15deg);
+  }
+  66.77% {
+    transform: translateY(-25%) translateX(10%) rotate(15deg);
+  }
+  100% {
+    transform: translateY(0) rotate(0);
+  }
+}
+
+.fly_animation {
+  animation: fly 10s ease infinite;
+}
+
+/* loading spinner styles */
+.spinner-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.726);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  border: 3px solid;
+  border-color: #fff #fff transparent;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+.loader::after {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border: 3px solid;
+  border-color: transparent #e83f29 #e83f29;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  animation: rotationBack 0.5s linear infinite;
+  transform-origin: center center;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotationBack {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}

@@ -2,7 +2,6 @@ import React, { useContext, useEffect, useRef, useState } from "react";
 import { allServices, clientDetails } from "../constants";
 import { BiCaretRight } from "react-icons/bi";
 import { SpinnerContext } from "./SpinnerContext";
-import { useNavigate } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import toast from "react-hot-toast";
 
@@ -34,7 +33,6 @@ export const InquiryForm = () => {
   const [selectedService, setSelectedService] = useState(allServices[0].title);
   const dropdownRef = useRef(null);
   const { setSpinner } = useContext(SpinnerContext);
-  const navigate = useNavigate();
   const {
     register,
     handleSubmit,
@@ -83,7 +81,7 @@ export const InquiryForm = () => {
       to: clientDetails.email,
       subject: values.subject,
       body: emailBody,
-      name:"Webora AI"
+      name: "Webora AI",
     };
 
     await fetch("https://send-mail-redirect-boostmysites.vercel.app/send-email", {
@@ -150,7 +148,7 @@ export const InquiryForm = () => {
                 {...register("email", {
                   required: "Email is required",
                   pattern: {
-                    value: /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,
+                    value: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
                     message: "Entered email is invalid",
                   },
                 })}

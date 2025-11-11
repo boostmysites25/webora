@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "../components/Website/Header";
 import Footer from "../components/Website/Footer";
-import PageBanner from "../components/Website/PageBanner";
 import { blogs } from "../data/blogs";
 import { Navigate, useParams } from "react-router-dom";
 import GetInTouch from "../components/GetInTouch";

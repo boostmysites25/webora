@@ -10,6 +10,7 @@ import GetInTouch from "../GetInTouch";
 
 const ServicePageLayout = () => {
   const { pathname } = useLocation();
+  const phoneDisplay = clientDetails.phoneDisplay ?? clientDetails.phone;
   return (
     <div className="bg-primary/5">
       <Header />
@@ -48,7 +49,7 @@ const ServicePageLayout = () => {
               </div>
               <h4 className="text-2xl font-medium">Need Help? Call Here</h4>
               <Link to={`tel:${clientDetails.phone}`} className="font-semibold">
-                {clientDetails.phone}
+                {phoneDisplay}
               </Link>
             </div>
             <div
@@ -109,7 +110,7 @@ const ServicePageLayout = () => {
             </div>
             <h4 className="text-xl font-semibold">Need Help? Call Here</h4>
             <Link to={`tel:${clientDetails.phone}`} className="font-semibold">
-              {clientDetails.phone}
+              {phoneDisplay}
             </Link>
           </div>
         </div>

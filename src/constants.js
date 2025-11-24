@@ -29,13 +29,16 @@ export { logo };
 
 // client details
 export const clientDetails = {
-  phone: "919341436784",
+  phone: "+911234567890",
+  phoneDisplay: "+91 12345-67890",
   email: "info@weboraai.com",
-  address: `WARD NO 04, TOWN AMBEDKAR NAGAR BARMASIA, POST B
-DEOGHAR PS DEOGHAR, Deoghar, PO: B. Deoghar, DIST: Deoghar, Jharkhand
--814112`,
+  address: "Shree Dutta Township Kattigenahalli, Yelahanka, Bangalore, 560064",
+  mapLink:
+    "https://www.google.com/maps?q=Shree+Dutta+Township+Kattigenahalli,+Yelahanka,+Bangalore+560064",
+  mapEmbedUrl:
+    "https://www.google.com/maps?q=Shree%20Dutta%20Township%20Kattigenahalli,%20Yelahanka,%20Bangalore%20560064&output=embed",
   whatsappLink:
-    "https://api.whatsapp.com/send/?phone=9341436784&text&type=phone_number&app_absent=0",
+    "https://api.whatsapp.com/send/?phone=911234567890&text&type=phone_number&app_absent=0",
   linkedin:
     "https://www.linkedin.com/search/results/all/?keywords=weboraai&origin=TYPEAHEAD_HISTORY&searchId=81a8b2c9-282e-426a-bb73-c3d227b6e2c7&sid=n*T&spellCorrectionEnabled=true",
   instagram: "https://www.instagram.com/webora_ai?igsh=Mmo1ZWUzNXIxdTly",

@@ -50,7 +50,7 @@ const LandingPage = ({ page }) => {
                     Book Your Free Consultation
                   </p>
                   <p className="description">
-                    Webora AI is an Webora AI based in Bengaluru. We help
+                    Webora AI is an AI-based company based in Bengaluru. We help
                     organizations kickstart their AI journey. If you’re seeking
                     a solution for your organization to enhance customer
                     support, boost employee productivity, and make the most of

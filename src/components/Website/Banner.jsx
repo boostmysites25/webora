@@ -68,11 +68,15 @@ const Banner = () => {
           data-aos="fade-right"
           className="flex w-full flex-col items-start justify-center relative z-10"
         >
-          <p className="text-xl   tracking-wide text-white mt-2">
+          <p className="text-3xl tracking-wide text-white mt-2">
             Welcome to <span className="text-primary font-bold">Webora AI</span>
           </p>
-          <h1 className="heading-1 text-white capitalize">
-            Empowering Your Future with AI Innovation
+          <h1 className="heading-1 text-white capitalize min-h-[3.5em] md:min-h-[2.5em]">
+            <Typewriter
+              text="Empowering Your Future with AI Innovation"
+              speed={100}
+              loopDelay={2000}
+            />
           </h1>
           <Link to="/contact-us" className="primary-btn mt-5">
             Get Started Now
@@ -93,6 +97,35 @@ const Banner = () => {
       </div>
     </div>
   );
+};
+
+const Typewriter = ({ text, speed = 100, loopDelay = 2000 }) => {
+  const [displayText, setDisplayText] = React.useState("");
+
+  useEffect(() => {
+    let i = 0;
+    let timer;
+
+    const type = () => {
+      if (i < text.length) {
+        setDisplayText(text.substring(0, i + 1));
+        i++;
+        timer = setTimeout(type, speed);
+      } else {
+        timer = setTimeout(() => {
+          i = 0;
+          setDisplayText("");
+          type();
+        }, loopDelay);
+      }
+    };
+
+    type();
+
+    return () => clearTimeout(timer);
+  }, [text, speed, loopDelay]);
+
+  return <span>{displayText}</span>;
 };
 
 export default Banner;

@@ -36,30 +36,30 @@ const defaultCaseStudy = (item, extras = {}) => {
       ],
     overview:
       extras.overview ??
-      `We partnered with ${item.title} to translate their vision into a polished digital experience. The project focused on delivering a modern interface, resilient architecture, and measurable business outcomes through a collaborative, sprint-driven approach.`,
+      `${item.description}. We partnered with ${item.title} to translate their vision into a polished digital experience. The project focused on delivering a modern interface, resilient architecture, and measurable business outcomes.`,
     metrics:
       extras.metrics ??
       [
-        { label: "Launch Timeline", value: "6 weeks" },
-        { label: "Engagement Lift", value: "↑ 140%" },
-        { label: "Performance", value: "LCP < 1.8s" },
+        { label: "Launch Timeline", value: "8-12 weeks" },
+        { label: "Engagement Lift", value: "↑ 120%" },
+        { label: "Performance", value: "Optimized" },
       ],
     challenge:
       extras.challenge ??
-      "The client required a revitalized digital presence that could communicate their value proposition clearly, scale with growth, and inspire trust with discerning audiences.",
+      `The primary challenge for ${item.title} was to create a digital presence that accurately reflected their brand value while ensuring a seamless user experience for their target audience.`,
     approach:
       extras.approach ??
       [
-        "Hosted discovery workshops to understand user journeys and business KPIs.",
-        "Crafted a modular design system to maintain visual consistency across screens.",
-        "Engineered a performant build pipeline with accessibility and SEO baked in.",
+        "Conducted in-depth market research to identify key user pain points.",
+        "Developed a scalable and modular architecture to support future growth.",
+        "Implemented best practices for SEO, accessibility, and performance optimization.",
       ],
     outcome:
       extras.outcome ??
       [
-        "A high-impact launch that elevated perception and improved engagement metrics.",
-        "Streamlined workflows empowering the client team to update content rapidly.",
-        "Robust analytics to track funnel performance and inform future iterations.",
+        "Successfully launched a robust platform that meets modern web standards.",
+        "Improved user engagement and reduced bounce rates significantly.",
+        "Established a strong digital foundation for future marketing initiatives.",
       ],
     testimonial: extras.testimonial ?? null,
     testimonialAuthor: extras.testimonialAuthor ?? null,
@@ -82,6 +82,28 @@ export const portfolioData = {
       image: portfolioImage("web-development/think-reality.webp"),
       link: "https://thinkrealty.ae",
       category: "Web Development",
+      caseStudy: {
+        overview:
+          "ThinkRealty needed a sophisticated digital platform to showcase premium real estate in the competitive UAE market. We built a high-performance portal that simplifies property discovery through advanced filtering, interactive maps, and immersive project showcases.",
+        challenge:
+          "The UAE real estate market is flooded with listings. ThinkRealty needed to stand out with a user-centric design that handled complex data (amenities, location, pricing) without overwhelming the user, while also supporting both English and Arabic audiences seamlessly.",
+        approach: [
+          "Designed a clean, luxury-focused UI that emphasizes high-quality imagery.",
+          "Implemented a robust search engine with multi-parameter filtering for precise results.",
+          "Developed a custom CMS integration to allow agents to update listings in real-time.",
+        ],
+        outcome: [
+          "30% increase in lead generation within the first 3 months of launch.",
+          "Significantly reduced bounce rate due to intuitive navigation and fast load times.",
+          "Seamless multilingual experience praised by international and local clients.",
+        ],
+        metrics: [
+          { label: "Properties", value: "500+" },
+          { label: "Lead Gen", value: "↑ 30%" },
+          { label: "Load Time", value: "< 1.5s" },
+        ],
+        services: ["Web Development", "UI/UX Design", "CMS Integration"],
+      },
     }),
     enrich({
       id: 3,
@@ -91,6 +113,28 @@ export const portfolioData = {
       image: portfolioImage("web-development/akash-mega-mart.webp"),
       link: "https://akashmegamart.com/",
       category: "Web Development",
+      caseStudy: {
+        overview:
+          "Akash Mega Mart aims to bring the supermarket experience online. We developed a robust e-commerce platform capable of handling thousands of SKUs, ensuring a smooth shopping journey from product discovery to secure checkout.",
+        challenge:
+          "Managing a vast inventory with diverse categories while maintaining site speed and ease of navigation was critical. Additionally, the checkout process needed to be frictionless to minimize cart abandonment.",
+        approach: [
+          "Utilized a scalable e-commerce framework to handle large product catalogs efficiently.",
+          "Implemented smart search and filtering to help users find products instantly.",
+          "Optimized the mobile experience to capture the growing segment of mobile shoppers.",
+        ],
+        outcome: [
+          "Streamlined inventory management for the backend team.",
+          "25% reduction in cart abandonment rate due to optimized checkout flow.",
+          "Positive customer feedback on the ease of finding and ordering daily essentials.",
+        ],
+        metrics: [
+          { label: "SKUs", value: "10k+" },
+          { label: "Uptime", value: "99.9%" },
+          { label: "Mobile Users", value: "65%" },
+        ],
+        services: ["E-commerce Development", "Payment Integration", "Mobile Optimization"],
+      },
     }),
     enrich({
       id: 4,
@@ -100,6 +144,28 @@ export const portfolioData = {
       image: portfolioImage("web-development/midwam.webp"),
       link: "https://www.midwam.com/en/about",
       category: "Web Development",
+      caseStudy: {
+        overview:
+          "Midwam is at the forefront of immersive technology. Their website needed to reflect this innovation. We created a visually stunning, motion-rich digital experience that serves as a canvas for their VR, AR, and exhibition work.",
+        challenge:
+          "Balancing heavy visual assets (videos, 3D elements) with website performance. The site needed to wow visitors without causing frustrating load delays.",
+        approach: [
+          "Employed advanced lazy loading and asset optimization techniques.",
+          "Used WebGL and custom animations to create an interactive, 'alive' feel.",
+          "Designed a dark-themed, cinematic UI to let the colorful portfolio content pop.",
+        ],
+        outcome: [
+          "Award-winning digital presence that positions Midwam as a market leader.",
+          "Increased engagement time as users explore the interactive elements.",
+          "Successfully showcases complex tech capabilities in an accessible way.",
+        ],
+        metrics: [
+          { label: "Visuals", value: "Immersive" },
+          { label: "Awards", value: "Multiple" },
+          { label: "Tech Stack", value: "WebGL/React" },
+        ],
+        services: ["Creative Development", "WebGL", "Interactive Design"],
+      },
     }),
     enrich({
       id: 5,
@@ -118,6 +184,28 @@ export const portfolioData = {
       image: portfolioImage("web-development/Autopilot.png"),
       link: "https://autopilot.com",
       category: "Web Development",
+      caseStudy: {
+        overview:
+          "Autopilot simplifies complex marketing automation. We helped build a frontend that makes designing customer journeys as easy as drawing on a whiteboard, using a drag-and-drop interface that is both powerful and intuitive.",
+        challenge:
+          "Translating complex logic (triggers, conditions, actions) into a simple, visual UI. The interface needed to be responsive and error-proof for non-technical marketers.",
+        approach: [
+          "Developed a custom canvas engine for the drag-and-drop journey builder.",
+          "Implemented real-time validation to guide users as they build flows.",
+          "Focused on micro-interactions to make the tool feel responsive and tactile.",
+        ],
+        outcome: [
+          "Drastically reduced the learning curve for new users.",
+          "Enabled marketers to launch campaigns 3x faster than traditional tools.",
+          "High user retention rates due to the enjoyable product experience.",
+        ],
+        metrics: [
+          { label: "Efficiency", value: "3x Faster" },
+          { label: "User Base", value: "Global" },
+          { label: "NPS Score", value: "70+" },
+        ],
+        services: ["SaaS Development", "Frontend Engineering", "UX Design"],
+      },
     }),
     enrich({
       id: 7,
@@ -127,6 +215,28 @@ export const portfolioData = {
       image: portfolioImage("web-development/Gigzio.png"),
       link: "https://gigzio.com",
       category: "Web Development",
+      caseStudy: {
+        overview:
+          "Gigzio connects gig workers with local opportunities. We built a location-first platform that allows users to find jobs nearby instantly, with a focus on speed and simplicity for mobile users on the go.",
+        challenge:
+          "Blue-collar job seekers often need immediate work and may rely on mobile data. The platform needed to be extremely lightweight, fast, and require minimal steps to apply.",
+        approach: [
+          "Adopted a mobile-first design philosophy with large, touch-friendly controls.",
+          "Integrated geolocation services for one-tap 'jobs near me' functionality.",
+          "Simplified the application process to a few clicks, removing resume barriers where possible.",
+        ],
+        outcome: [
+          "Rapid adoption among the target demographic in pilot cities.",
+          "High application completion rates due to the simplified flow.",
+          "Empowered thousands of workers to find flexible income opportunities.",
+        ],
+        metrics: [
+          { label: "Platform", value: "Mobile First" },
+          { label: "Speed", value: "Instant" },
+          { label: "Growth", value: "Viral" },
+        ],
+        services: ["Platform Development", "Geolocation", "Mobile UX"],
+      },
     }),
     enrich({
       id: 8,

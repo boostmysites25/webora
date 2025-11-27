@@ -30,7 +30,8 @@ export { logo };
 // client details
 export const clientDetails = {
   phone: "+911234567890",
-  phoneDisplay: "+91 12345-67890",
+  
+  phoneDisplay: "+91 93414-36784",
   email: "info@weboraai.com",
   address: "Shree Dutta Township Kattigenahalli, Yelahanka, Bangalore, 560064",
   mapLink:

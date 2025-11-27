@@ -93,12 +93,11 @@ const Card = ({ item }) => {
           loading="lazy"
           className="h-full w-full object-cover transition-all duration-500 group-hover:scale-105"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#05071a]/95 via-[#05071a]/10 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
       </div>
       <div className="absolute bottom-0 left-0 w-full p-5 flex flex-col gap-2 bg-gradient-to-r from-primary/90 via-primary/80 to-primary/60 backdrop-blur">
-        <h3 className="font-medium text-center text-white text-xl">
+        {/* <h3 className="font-medium text-center text-white text-xl">
           {item.title}
-        </h3>
+        </h3> */}
         <p className="text-center text-white/80 text-sm tracking-wide uppercase">
           View case study
         </p>
@@ -106,7 +105,8 @@ const Card = ({ item }) => {
     </>
   );
 
-  const caseStudySlug = item.caseStudy?.slug ?? item.slug;
+  const caseStudySlug = ''
+  // item.caseStudy?.slug ?? item.slug;
 
   if (caseStudySlug) {
     return (

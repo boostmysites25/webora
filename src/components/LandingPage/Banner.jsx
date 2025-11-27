@@ -82,8 +82,12 @@ const Banner = ({ page }) => {
           <div className="flex w-full flex-col items-start justify-center relative z-10">
             {isWebDevelopment ? (
               <>
-                <h1 data-aos="fade-right" className="heading-1 text-white">
-                  Websites that Don’t Just Look Good—They Deliver Results
+                <h1 data-aos="fade-right" className="heading-1 text-white min-h-[3.5em] md:min-h-[2.5em]">
+                  <Typewriter
+                    text="Websites that Don’t Just Look Good—They Deliver Results"
+                    speed={100}
+                    loopDelay={2000}
+                  />
                 </h1>
                 <p
                   data-aos="fade-right"
@@ -99,8 +103,12 @@ const Banner = ({ page }) => {
               </>
             ) : (
               <>
-                <h1 data-aos="fade-right" className="heading-1 text-white">
-                  Apps That Users Love and Businesses Rely On!
+                <h1 data-aos="fade-right" className="heading-1 text-white min-h-[3.5em] md:min-h-[2.5em]">
+                  <Typewriter
+                    text="Apps That Users Love and Businesses Rely On!"
+                    speed={100}
+                    loopDelay={2000}
+                  />
                 </h1>
                 <p
                   data-aos="fade-right"
@@ -128,6 +136,35 @@ const Banner = ({ page }) => {
       </div>
     </div>
   );
+};
+
+const Typewriter = ({ text, speed = 100, loopDelay = 2000 }) => {
+  const [displayText, setDisplayText] = useState("");
+
+  useEffect(() => {
+    let i = 0;
+    let timer;
+
+    const type = () => {
+      if (i < text.length) {
+        setDisplayText(text.substring(0, i + 1));
+        i++;
+        timer = setTimeout(type, speed);
+      } else {
+        timer = setTimeout(() => {
+          i = 0;
+          setDisplayText("");
+          type();
+        }, loopDelay);
+      }
+    };
+
+    type();
+
+    return () => clearTimeout(timer);
+  }, [text, speed, loopDelay]);
+
+  return <span>{displayText}</span>;
 };
 
 export default Banner;

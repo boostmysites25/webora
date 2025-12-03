@@ -173,37 +173,37 @@ export const portfolioData = {
         services: ["Creative Development", "WebGL", "Interactive Design"],
       },
     }),
-    enrich({
-      id: 5,
-      title: "5G High Speed Internet",
-      description:
-        "Promotional website for broadband service provider with plan comparisons, service availability checkers, and inquiry forms",
-      image: portfolioImage("web-development/5ghomes.webp"),
-      link: "",
-      category: "Web Development",
-      caseStudy: {
-        overview:
-          "5G High Speed Internet needed a conversion-focused website to help potential customers understand their broadband plans and check service availability. We built a streamlined platform that simplifies plan selection and drives inquiries through intuitive comparison tools and real-time availability checking.",
-        challenge:
-          "Telecom websites often overwhelm users with technical jargon. The challenge was to present complex plan details in an easily digestible format while maintaining trust and credibility. Additionally, the service availability checker needed to be accurate and fast to prevent user frustration.",
-        approach: [
-          "Designed a clean, comparison-focused layout that highlights plan differences at a glance.",
-          "Implemented an interactive service availability checker with real-time validation.",
-          "Created streamlined inquiry forms with minimal friction to maximize lead generation.",
-        ],
-        outcome: [
-          "40% increase in plan inquiries within the first quarter post-launch.",
-          "Reduced bounce rate by 35% through improved plan clarity and navigation.",
-          "Positive feedback on the ease of understanding service options and checking availability.",
-        ],
-        metrics: [
-          { label: "Inquiry Rate", value: "↑ 40%" },
-          { label: "Bounce Rate", value: "↓ 35%" },
-          { label: "Page Speed", value: "< 2s" },
-        ],
-        services: ["Web Development", "Lead Generation", "UX Optimization"],
-      },
-    }),
+    // enrich({
+    //   id: 5,
+    //   title: "5G High Speed Internet",
+    //   description:
+    //     "Promotional website for broadband service provider with plan comparisons, service availability checkers, and inquiry forms",
+    //   image: portfolioImage("web-development/5ghomes.webp"),
+    //   link: "",
+    //   category: "Web Development",
+    //   caseStudy: {
+    //     overview:
+    //       "5G High Speed Internet needed a conversion-focused website to help potential customers understand their broadband plans and check service availability. We built a streamlined platform that simplifies plan selection and drives inquiries through intuitive comparison tools and real-time availability checking.",
+    //     challenge:
+    //       "Telecom websites often overwhelm users with technical jargon. The challenge was to present complex plan details in an easily digestible format while maintaining trust and credibility. Additionally, the service availability checker needed to be accurate and fast to prevent user frustration.",
+    //     approach: [
+    //       "Designed a clean, comparison-focused layout that highlights plan differences at a glance.",
+    //       "Implemented an interactive service availability checker with real-time validation.",
+    //       "Created streamlined inquiry forms with minimal friction to maximize lead generation.",
+    //     ],
+    //     outcome: [
+    //       "40% increase in plan inquiries within the first quarter post-launch.",
+    //       "Reduced bounce rate by 35% through improved plan clarity and navigation.",
+    //       "Positive feedback on the ease of understanding service options and checking availability.",
+    //     ],
+    //     metrics: [
+    //       { label: "Inquiry Rate", value: "↑ 40%" },
+    //       { label: "Bounce Rate", value: "↓ 35%" },
+    //       { label: "Page Speed", value: "< 2s" },
+    //     ],
+    //     services: ["Web Development", "Lead Generation", "UX Optimization"],
+    //   },
+    // }),
     enrich({
       id: 6,
       title: "Autopilot",
@@ -266,37 +266,37 @@ export const portfolioData = {
         services: ["Platform Development", "Geolocation", "Mobile UX"],
       },
     }),
-    enrich({
-      id: 8,
-      title: "FE Group",
-      description:
-        "Global industrial solutions provider with multilingual support, animation-driven UI, and structured service flows",
-      image: portfolioImage("web-development/FE Group.png"),
-      link: "",
-      category: "Web Development",
-      caseStudy: {
-        overview:
-          "FE Group operates across multiple continents and needed a sophisticated digital presence that communicates their industrial expertise to diverse international markets. We developed a multilingual platform with engaging animations that showcase their technical capabilities while maintaining professional credibility.",
-        challenge:
-          "Industrial B2B websites often struggle to balance technical accuracy with visual appeal. FE Group needed to present complex industrial solutions in an accessible way while supporting multiple languages and maintaining consistent brand messaging across regions.",
-        approach: [
-          "Implemented a robust multilingual system supporting seamless language switching.",
-          "Created animation-driven service flows that guide users through complex industrial processes.",
-          "Designed structured information architecture to help visitors quickly find relevant solutions.",
-        ],
-        outcome: [
-          "Improved international engagement with 60% of traffic from target global markets.",
-          "Increased time on site by 45% due to engaging animations and clear service flows.",
-          "Enhanced brand perception as a modern, technology-forward industrial partner.",
-        ],
-        metrics: [
-          { label: "Languages", value: "5+" },
-          { label: "Engagement", value: "↑ 45%" },
-          { label: "Global Reach", value: "60%" },
-        ],
-        services: ["Multilingual Development", "Animation Design", "B2B Web Solutions"],
-      },
-    }),
+    // enrich({
+    //   id: 8,
+    //   title: "FE Group",
+    //   description:
+    //     "Global industrial solutions provider with multilingual support, animation-driven UI, and structured service flows",
+    //   image: portfolioImage("web-development/FE Group.png"),
+    //   link: "",
+    //   category: "Web Development",
+    //   caseStudy: {
+    //     overview:
+    //       "FE Group operates across multiple continents and needed a sophisticated digital presence that communicates their industrial expertise to diverse international markets. We developed a multilingual platform with engaging animations that showcase their technical capabilities while maintaining professional credibility.",
+    //     challenge:
+    //       "Industrial B2B websites often struggle to balance technical accuracy with visual appeal. FE Group needed to present complex industrial solutions in an accessible way while supporting multiple languages and maintaining consistent brand messaging across regions.",
+    //     approach: [
+    //       "Implemented a robust multilingual system supporting seamless language switching.",
+    //       "Created animation-driven service flows that guide users through complex industrial processes.",
+    //       "Designed structured information architecture to help visitors quickly find relevant solutions.",
+    //     ],
+    //     outcome: [
+    //       "Improved international engagement with 60% of traffic from target global markets.",
+    //       "Increased time on site by 45% due to engaging animations and clear service flows.",
+    //       "Enhanced brand perception as a modern, technology-forward industrial partner.",
+    //     ],
+    //     metrics: [
+    //       { label: "Languages", value: "5+" },
+    //       { label: "Engagement", value: "↑ 45%" },
+    //       { label: "Global Reach", value: "60%" },
+    //     ],
+    //     services: ["Multilingual Development", "Animation Design", "B2B Web Solutions"],
+    //   },
+    // }),
     enrich({
       id: 9,
       title: "The Ladders",
@@ -514,37 +514,37 @@ export const portfolioData = {
         services: ["Cultural Platform", "Media Streaming", "Spiritual UX"],
       },
     }),
-    enrich({
-      id: 16,
-      title: "Educateast",
-      description:
-        "Educational services platform providing structured programs and resources for regional educational development",
-      image: portfolioImage("web-development/Educateast.png"),
-      link: "",
-      category: "Web Development",
-      caseStudy: {
-        overview:
-          "Educateast focuses on regional educational development, providing structured programs tailored to specific communities. We built a platform that organizes educational resources, tracks program effectiveness, and connects learners with relevant opportunities in their regions.",
-        challenge:
-          "Regional education platforms must address diverse needs while maintaining clear structure. Educateast needed to serve multiple regions with different educational requirements, making organization and discoverability critical for user success.",
-        approach: [
-          "Designed a region-based navigation system that helps users find relevant programs quickly.",
-          "Created structured program templates that ensure consistency across different educational offerings.",
-          "Implemented progress tracking and resource management tools for both learners and administrators.",
-        ],
-        outcome: [
-          "Improved program discoverability with 60% faster content access.",
-          "Enhanced regional engagement through localized content presentation.",
-          "Streamlined administrative processes for managing multiple educational programs.",
-        ],
-        metrics: [
-          { label: "Access Speed", value: "↑ 60%" },
-          { label: "Engagement", value: "Enhanced" },
-          { label: "Efficiency", value: "Streamlined" },
-        ],
-        services: ["Educational Platform", "Regional Solutions", "Program Management"],
-      },
-    }),
+    // enrich({
+    //   id: 16,
+    //   title: "Educateast",
+    //   description:
+    //     "Educational services platform providing structured programs and resources for regional educational development",
+    //   image: portfolioImage("web-development/Educateast.png"),
+    //   link: "",
+    //   category: "Web Development",
+    //   caseStudy: {
+    //     overview:
+    //       "Educateast focuses on regional educational development, providing structured programs tailored to specific communities. We built a platform that organizes educational resources, tracks program effectiveness, and connects learners with relevant opportunities in their regions.",
+    //     challenge:
+    //       "Regional education platforms must address diverse needs while maintaining clear structure. Educateast needed to serve multiple regions with different educational requirements, making organization and discoverability critical for user success.",
+    //     approach: [
+    //       "Designed a region-based navigation system that helps users find relevant programs quickly.",
+    //       "Created structured program templates that ensure consistency across different educational offerings.",
+    //       "Implemented progress tracking and resource management tools for both learners and administrators.",
+    //     ],
+    //     outcome: [
+    //       "Improved program discoverability with 60% faster content access.",
+    //       "Enhanced regional engagement through localized content presentation.",
+    //       "Streamlined administrative processes for managing multiple educational programs.",
+    //     ],
+    //     metrics: [
+    //       { label: "Access Speed", value: "↑ 60%" },
+    //       { label: "Engagement", value: "Enhanced" },
+    //       { label: "Efficiency", value: "Streamlined" },
+    //     ],
+    //     services: ["Educational Platform", "Regional Solutions", "Program Management"],
+    //   },
+    // }),
     enrich({
       id: 17,
       title: "Guyariv",
@@ -576,37 +576,37 @@ export const portfolioData = {
         services: ["EdTech Development", "Interactive Learning", "Career Platform"],
       },
     }),
-    enrich({
-      id: 18,
-      title: "Backstage English RC",
-      description:
-        "English language training platform for IELTS, TOEFL, and spoken English courses with mobile-optimized learning",
-      image: portfolioImage("web-development/Backstage English RC.png"),
-      link: "",
-      category: "Web Development",
-      caseStudy: {
-        overview:
-          "Backstage English RC helps students prepare for English proficiency exams and improve spoken English. We created a mobile-first learning platform optimized for on-the-go study, with practice tests, speaking exercises, and progress tracking tailored to IELTS and TOEFL preparation.",
-        challenge:
-          "Language learning requires consistent practice, often on mobile devices. The platform needed to support offline learning, provide speaking practice tools, and deliver exam-specific content that helps students achieve their target scores.",
-        approach: [
-          "Built a mobile-optimized interface that works seamlessly on smartphones and tablets.",
-          "Integrated speaking practice tools with audio recording and feedback capabilities.",
-          "Created exam-specific practice modules aligned with IELTS and TOEFL formats.",
-        ],
-        outcome: [
-          "Enabled flexible learning with mobile-first design supporting study anywhere.",
-          "Improved exam scores with targeted practice aligned to test formats.",
-          "Increased student confidence through regular speaking practice and feedback.",
-        ],
-        metrics: [
-          { label: "Mobile Usage", value: "80%" },
-          { label: "Exam Success", value: "Improved" },
-          { label: "Engagement", value: "High" },
-        ],
-        services: ["Mobile Learning", "Language Platform", "Exam Preparation"],
-      },
-    }),
+    // enrich({
+    //   id: 18,
+    //   title: "Backstage English RC",
+    //   description:
+    //     "English language training platform for IELTS, TOEFL, and spoken English courses with mobile-optimized learning",
+    //   image: portfolioImage("web-development/Backstage English RC.png"),
+    //   link: "",
+    //   category: "Web Development",
+    //   caseStudy: {
+    //     overview:
+    //       "Backstage English RC helps students prepare for English proficiency exams and improve spoken English. We created a mobile-first learning platform optimized for on-the-go study, with practice tests, speaking exercises, and progress tracking tailored to IELTS and TOEFL preparation.",
+    //     challenge:
+    //       "Language learning requires consistent practice, often on mobile devices. The platform needed to support offline learning, provide speaking practice tools, and deliver exam-specific content that helps students achieve their target scores.",
+    //     approach: [
+    //       "Built a mobile-optimized interface that works seamlessly on smartphones and tablets.",
+    //       "Integrated speaking practice tools with audio recording and feedback capabilities.",
+    //       "Created exam-specific practice modules aligned with IELTS and TOEFL formats.",
+    //     ],
+    //     outcome: [
+    //       "Enabled flexible learning with mobile-first design supporting study anywhere.",
+    //       "Improved exam scores with targeted practice aligned to test formats.",
+    //       "Increased student confidence through regular speaking practice and feedback.",
+    //     ],
+    //     metrics: [
+    //       { label: "Mobile Usage", value: "80%" },
+    //       { label: "Exam Success", value: "Improved" },
+    //       { label: "Engagement", value: "High" },
+    //     ],
+    //     services: ["Mobile Learning", "Language Platform", "Exam Preparation"],
+    //   },
+    // }),
     enrich({
       id: 19,
       title: "Of Course TN",
@@ -669,39 +669,39 @@ export const portfolioData = {
         services: ["Catering Website", "Event Booking", "Brand Design"],
       },
     }),
-    enrich({
-      id: 21,
-      title: "CoffeeLavka Express Track",
-      description:
-        "Real-Time Coffee Order Tracking Platform with location-based services and mobile-first layout",
-      image: portfolioImage(
-        "web-development/CoffeeLavka Express Track – Real-Time Coffee Order Tracking Platform.jpg"
-      ),
-      link: "",
-      category: "Web Development",
-      caseStudy: {
-        overview:
-          "CoffeeLavka Express Track provides real-time order tracking for coffee delivery. We built a mobile-first platform that shows customers exactly where their order is, when it will arrive, and provides location-based services to enhance the coffee ordering experience.",
-        challenge:
-          "Real-time tracking requires reliable location services and smooth updates without draining device batteries. The platform needed to provide accurate ETAs while maintaining excellent mobile performance and user experience.",
-        approach: [
-          "Implemented real-time location tracking with efficient update mechanisms.",
-          "Designed a mobile-first interface optimized for quick order status checks.",
-          "Created location-based features that help users find nearby locations and track deliveries.",
-        ],
-        outcome: [
-          "Improved customer satisfaction with transparent, real-time order visibility.",
-          "Reduced customer service inquiries about order status by 60%.",
-          "Enhanced the overall coffee ordering experience with location-based convenience.",
-        ],
-        metrics: [
-          { label: "Satisfaction", value: "Improved" },
-          { label: "Support Tickets", value: "↓ 60%" },
-          { label: "Experience", value: "Enhanced" },
-        ],
-        services: ["Real-Time Tracking", "Location Services", "Mobile Platform"],
-      },
-    }),
+    // enrich({
+    //   id: 21,
+    //   title: "CoffeeLavka Express Track",
+    //   description:
+    //     "Real-Time Coffee Order Tracking Platform with location-based services and mobile-first layout",
+    //   image: portfolioImage(
+    //     "web-development/CoffeeLavka Express Track – Real-Time Coffee Order Tracking Platform.jpg"
+    //   ),
+    //   link: "",
+    //   category: "Web Development",
+    //   caseStudy: {
+    //     overview:
+    //       "CoffeeLavka Express Track provides real-time order tracking for coffee delivery. We built a mobile-first platform that shows customers exactly where their order is, when it will arrive, and provides location-based services to enhance the coffee ordering experience.",
+    //     challenge:
+    //       "Real-time tracking requires reliable location services and smooth updates without draining device batteries. The platform needed to provide accurate ETAs while maintaining excellent mobile performance and user experience.",
+    //     approach: [
+    //       "Implemented real-time location tracking with efficient update mechanisms.",
+    //       "Designed a mobile-first interface optimized for quick order status checks.",
+    //       "Created location-based features that help users find nearby locations and track deliveries.",
+    //     ],
+    //     outcome: [
+    //       "Improved customer satisfaction with transparent, real-time order visibility.",
+    //       "Reduced customer service inquiries about order status by 60%.",
+    //       "Enhanced the overall coffee ordering experience with location-based convenience.",
+    //     ],
+    //     metrics: [
+    //       { label: "Satisfaction", value: "Improved" },
+    //       { label: "Support Tickets", value: "↓ 60%" },
+    //       { label: "Experience", value: "Enhanced" },
+    //     ],
+    //     services: ["Real-Time Tracking", "Location Services", "Mobile Platform"],
+    //   },
+    // }),
     enrich({
       id: 22,
       title: "Crave Kitchen",
@@ -735,204 +735,204 @@ export const portfolioData = {
         services: ["Food Hall Platform", "Multi-Vendor System", "Delivery Integration"],
       },
     }),
-    enrich({
-      id: 23,
-      title: "Fashion Journey Navigator",
-      description:
-        "Personalized style discovery platform with product galleries and lookbook-style pages",
-      image: portfolioImage(
-        "web-development/Fashion Journey Navigator – Personalized Style Discovery Platform.jpg"
-      ),
-      link: "",
-      category: "Web Development",
-      caseStudy: {
-        overview:
-          "Fashion Journey Navigator helps users discover their personal style through curated lookbooks and personalized recommendations. We built a platform that combines beautiful product galleries with style inspiration, creating a shopping experience that feels like browsing a high-end fashion magazine.",
-        challenge:
-          "Fashion platforms must balance inspiration with commerce. The challenge was creating an aspirational, editorial feel while maintaining clear product discovery and purchase paths. Personalization needed to feel authentic, not algorithmic.",
-        approach: [
-          "Designed lookbook-style pages that inspire while showcasing products naturally.",
-          "Implemented personalized style recommendations based on user preferences and browsing behavior.",
-          "Created immersive product galleries that make fashion discovery enjoyable and engaging.",
-        ],
-        outcome: [
-          "Increased time on site by 70% through engaging style discovery experience.",
-          "Improved conversion rates with personalized product recommendations.",
-          "Established Fashion Journey Navigator as a go-to destination for style inspiration.",
-        ],
-        metrics: [
-          { label: "Engagement", value: "↑ 70%" },
-          { label: "Conversion", value: "Improved" },
-          { label: "Brand Position", value: "Leader" },
-        ],
-        services: ["Fashion Platform", "Personalization", "Style Discovery"],
-      },
-    }),
-    enrich({
-      id: 24,
-      title: "Interview Pro",
-      description:
-        "Professional interview scheduling platform with structured booking flows and candidate preparation resources",
-      image: portfolioImage(
-        "web-development/Interview Pro – Professional Interview Scheduling & Management Platform.jpg"
-      ),
-      link: "",
-      category: "Web Development",
-      caseStudy: {
-        overview:
-          "Interview Pro streamlines the interview process for both candidates and employers. We developed a comprehensive platform that handles scheduling, sends reminders, provides preparation resources, and manages the entire interview workflow from booking to feedback.",
-        challenge:
-          "Interview scheduling involves coordinating multiple parties, time zones, and preferences. The platform needed to handle complex scheduling logic while providing value-added features like preparation resources that help candidates succeed.",
-        approach: [
-          "Built an intelligent scheduling system that handles time zones, availability, and preferences automatically.",
-          "Created candidate preparation resources including common questions, tips, and practice tools.",
-          "Developed structured booking flows that guide users through the process step-by-step.",
-        ],
-        outcome: [
-          "Reduced scheduling conflicts by 80% through automated coordination.",
-          "Improved interview success rates with comprehensive preparation resources.",
-          "Streamlined hiring processes for employers with integrated management tools.",
-        ],
-        metrics: [
-          { label: "Scheduling Issues", value: "↓ 80%" },
-          { label: "Success Rate", value: "Improved" },
-          { label: "Efficiency", value: "Streamlined" },
-        ],
-        services: ["Scheduling Platform", "Interview Management", "Candidate Prep"],
-      },
-    }),
-    enrich({
-      id: 25,
-      title: "Mediverse Connect AI",
-      description:
-        "AI-powered healthcare networking platform with telemedicine and digital health solutions",
-      image: portfolioImage(
-        "web-development/Mediverse Connect AI – AI-Powered Healthcare Networking Platform.jpg"
-      ),
-      link: "",
-      category: "Web Development",
-      caseStudy: {
-        overview:
-          "Mediverse Connect AI revolutionizes healthcare networking by connecting patients, providers, and health solutions through AI-powered matching. We built a platform that combines telemedicine capabilities with intelligent networking, making healthcare more accessible and efficient.",
-        challenge:
-          "Healthcare platforms must balance innovation with trust and compliance. The challenge was integrating AI features that add real value while maintaining HIPAA compliance and ensuring users feel confident in the platform's security and reliability.",
-        approach: [
-          "Developed AI-powered matching algorithms that connect patients with appropriate providers.",
-          "Integrated secure telemedicine capabilities with video consultation and digital health records.",
-          "Created a networking platform that facilitates collaboration between healthcare professionals.",
-        ],
-        outcome: [
-          "Improved patient-provider matching accuracy through AI-powered recommendations.",
-          "Increased access to healthcare services with telemedicine integration.",
-          "Facilitated professional networking that enhances healthcare delivery.",
-        ],
-        metrics: [
-          { label: "Matching Accuracy", value: "Improved" },
-          { label: "Access", value: "Increased" },
-          { label: "Networking", value: "Enhanced" },
-        ],
-        services: ["Healthcare Platform", "AI Integration", "Telemedicine"],
-      },
-    }),
-    enrich({
-      id: 26,
-      title: "StreamVerse",
-      description:
-        "Smart rental management platform with virtual tours, smart contracts, and predictive analytics",
-      image: portfolioImage(
-        "web-development/StreamVerse – Smart Rental Management Platform.jpg"
-      ),
-      link: "",
-      category: "Web Development",
-      caseStudy: {
-        overview:
-          "StreamVerse modernizes rental management with technology-driven solutions. We built a comprehensive platform featuring virtual property tours, blockchain-based smart contracts, and predictive analytics that help property managers optimize operations and tenants find perfect rentals.",
-        challenge:
-          "Rental platforms must handle complex transactions while providing transparency and trust. The challenge was integrating cutting-edge features like virtual tours and smart contracts in a way that feels accessible and reliable to users who may not be tech-savvy.",
-        approach: [
-          "Developed immersive virtual tour technology that allows remote property exploration.",
-          "Implemented smart contract systems for transparent, automated rental agreements.",
-          "Built predictive analytics that help property managers optimize pricing and occupancy.",
-        ],
-        outcome: [
-          "Reduced property viewing time by 40% through virtual tour capabilities.",
-          "Increased trust and transparency with automated smart contract execution.",
-          "Improved property management efficiency through data-driven insights.",
-        ],
-        metrics: [
-          { label: "Viewing Time", value: "↓ 40%" },
-          { label: "Transparency", value: "Increased" },
-          { label: "Efficiency", value: "Improved" },
-        ],
-        services: ["Rental Platform", "Virtual Tours", "Smart Contracts"],
-      },
-    }),
-    enrich({
-      id: 27,
-      title: "UPSC Aids",
-      description:
-        "Personalized mentorship and UPSC preparation dashboard with structured learning programs",
-      image: portfolioImage(
-        "web-development/UPSC Aids – Personalized Mentorship & UPSC Preparation Dashboard.jpg"
-      ),
-      link: "",
-      category: "Web Development",
-      caseStudy: {
-        overview:
-          "UPSC Aids supports aspirants preparing for India's most competitive civil service exam. We created a comprehensive preparation platform with personalized mentorship, structured learning programs, and progress tracking that helps students navigate the challenging UPSC journey systematically.",
-        challenge:
-          "UPSC preparation is a multi-year journey requiring discipline and guidance. The platform needed to provide structured learning paths while offering personalized mentorship that adapts to each student's strengths and weaknesses. Motivation and progress tracking were critical.",
-        approach: [
-          "Designed structured learning programs that break down the vast UPSC syllabus into manageable modules.",
-          "Built a mentorship matching system that connects students with experienced mentors.",
-          "Created comprehensive progress dashboards that track performance across all exam components.",
-        ],
-        outcome: [
-          "Improved exam preparation efficiency with structured, personalized learning paths.",
-          "Increased student success rates through effective mentorship connections.",
-          "Helped thousands of aspirants stay motivated and on track throughout their preparation journey.",
-        ],
-        metrics: [
-          { label: "Efficiency", value: "Improved" },
-          { label: "Success Rate", value: "Increased" },
-          { label: "Students", value: "Thousands" },
-        ],
-        services: ["Exam Preparation", "Mentorship Platform", "Learning Dashboard"],
-      },
-    }),
+    // enrich({
+    //   id: 23,
+    //   title: "Fashion Journey Navigator",
+    //   description:
+    //     "Personalized style discovery platform with product galleries and lookbook-style pages",
+    //   image: portfolioImage(
+    //     "web-development/Fashion Journey Navigator – Personalized Style Discovery Platform.jpg"
+    //   ),
+    //   link: "",
+    //   category: "Web Development",
+    //   caseStudy: {
+    //     overview:
+    //       "Fashion Journey Navigator helps users discover their personal style through curated lookbooks and personalized recommendations. We built a platform that combines beautiful product galleries with style inspiration, creating a shopping experience that feels like browsing a high-end fashion magazine.",
+    //     challenge:
+    //       "Fashion platforms must balance inspiration with commerce. The challenge was creating an aspirational, editorial feel while maintaining clear product discovery and purchase paths. Personalization needed to feel authentic, not algorithmic.",
+    //     approach: [
+    //       "Designed lookbook-style pages that inspire while showcasing products naturally.",
+    //       "Implemented personalized style recommendations based on user preferences and browsing behavior.",
+    //       "Created immersive product galleries that make fashion discovery enjoyable and engaging.",
+    //     ],
+    //     outcome: [
+    //       "Increased time on site by 70% through engaging style discovery experience.",
+    //       "Improved conversion rates with personalized product recommendations.",
+    //       "Established Fashion Journey Navigator as a go-to destination for style inspiration.",
+    //     ],
+    //     metrics: [
+    //       { label: "Engagement", value: "↑ 70%" },
+    //       { label: "Conversion", value: "Improved" },
+    //       { label: "Brand Position", value: "Leader" },
+    //     ],
+    //     services: ["Fashion Platform", "Personalization", "Style Discovery"],
+    //   },
+    // }),
+    // enrich({
+    //   id: 24,
+    //   title: "Interview Pro",
+    //   description:
+    //     "Professional interview scheduling platform with structured booking flows and candidate preparation resources",
+    //   image: portfolioImage(
+    //     "web-development/Interview Pro – Professional Interview Scheduling & Management Platform.jpg"
+    //   ),
+    //   link: "",
+    //   category: "Web Development",
+    //   caseStudy: {
+    //     overview:
+    //       "Interview Pro streamlines the interview process for both candidates and employers. We developed a comprehensive platform that handles scheduling, sends reminders, provides preparation resources, and manages the entire interview workflow from booking to feedback.",
+    //     challenge:
+    //       "Interview scheduling involves coordinating multiple parties, time zones, and preferences. The platform needed to handle complex scheduling logic while providing value-added features like preparation resources that help candidates succeed.",
+    //     approach: [
+    //       "Built an intelligent scheduling system that handles time zones, availability, and preferences automatically.",
+    //       "Created candidate preparation resources including common questions, tips, and practice tools.",
+    //       "Developed structured booking flows that guide users through the process step-by-step.",
+    //     ],
+    //     outcome: [
+    //       "Reduced scheduling conflicts by 80% through automated coordination.",
+    //       "Improved interview success rates with comprehensive preparation resources.",
+    //       "Streamlined hiring processes for employers with integrated management tools.",
+    //     ],
+    //     metrics: [
+    //       { label: "Scheduling Issues", value: "↓ 80%" },
+    //       { label: "Success Rate", value: "Improved" },
+    //       { label: "Efficiency", value: "Streamlined" },
+    //     ],
+    //     services: ["Scheduling Platform", "Interview Management", "Candidate Prep"],
+    //   },
+    // }),
+    // enrich({
+    //   id: 25,
+    //   title: "Mediverse Connect AI",
+    //   description:
+    //     "AI-powered healthcare networking platform with telemedicine and digital health solutions",
+    //   image: portfolioImage(
+    //     "web-development/Mediverse Connect AI – AI-Powered Healthcare Networking Platform.jpg"
+    //   ),
+    //   link: "",
+    //   category: "Web Development",
+    //   caseStudy: {
+    //     overview:
+    //       "Mediverse Connect AI revolutionizes healthcare networking by connecting patients, providers, and health solutions through AI-powered matching. We built a platform that combines telemedicine capabilities with intelligent networking, making healthcare more accessible and efficient.",
+    //     challenge:
+    //       "Healthcare platforms must balance innovation with trust and compliance. The challenge was integrating AI features that add real value while maintaining HIPAA compliance and ensuring users feel confident in the platform's security and reliability.",
+    //     approach: [
+    //       "Developed AI-powered matching algorithms that connect patients with appropriate providers.",
+    //       "Integrated secure telemedicine capabilities with video consultation and digital health records.",
+    //       "Created a networking platform that facilitates collaboration between healthcare professionals.",
+    //     ],
+    //     outcome: [
+    //       "Improved patient-provider matching accuracy through AI-powered recommendations.",
+    //       "Increased access to healthcare services with telemedicine integration.",
+    //       "Facilitated professional networking that enhances healthcare delivery.",
+    //     ],
+    //     metrics: [
+    //       { label: "Matching Accuracy", value: "Improved" },
+    //       { label: "Access", value: "Increased" },
+    //       { label: "Networking", value: "Enhanced" },
+    //     ],
+    //     services: ["Healthcare Platform", "AI Integration", "Telemedicine"],
+    //   },
+    // }),
+    // enrich({
+    //   id: 26,
+    //   title: "StreamVerse",
+    //   description:
+    //     "Smart rental management platform with virtual tours, smart contracts, and predictive analytics",
+    //   image: portfolioImage(
+    //     "web-development/StreamVerse – Smart Rental Management Platform.jpg"
+    //   ),
+    //   link: "",
+    //   category: "Web Development",
+    //   caseStudy: {
+    //     overview:
+    //       "StreamVerse modernizes rental management with technology-driven solutions. We built a comprehensive platform featuring virtual property tours, blockchain-based smart contracts, and predictive analytics that help property managers optimize operations and tenants find perfect rentals.",
+    //     challenge:
+    //       "Rental platforms must handle complex transactions while providing transparency and trust. The challenge was integrating cutting-edge features like virtual tours and smart contracts in a way that feels accessible and reliable to users who may not be tech-savvy.",
+    //     approach: [
+    //       "Developed immersive virtual tour technology that allows remote property exploration.",
+    //       "Implemented smart contract systems for transparent, automated rental agreements.",
+    //       "Built predictive analytics that help property managers optimize pricing and occupancy.",
+    //     ],
+    //     outcome: [
+    //       "Reduced property viewing time by 40% through virtual tour capabilities.",
+    //       "Increased trust and transparency with automated smart contract execution.",
+    //       "Improved property management efficiency through data-driven insights.",
+    //     ],
+    //     metrics: [
+    //       { label: "Viewing Time", value: "↓ 40%" },
+    //       { label: "Transparency", value: "Increased" },
+    //       { label: "Efficiency", value: "Improved" },
+    //     ],
+    //     services: ["Rental Platform", "Virtual Tours", "Smart Contracts"],
+    //   },
+    // }),
+    // enrich({
+    //   id: 27,
+    //   title: "UPSC Aids",
+    //   description:
+    //     "Personalized mentorship and UPSC preparation dashboard with structured learning programs",
+    //   image: portfolioImage(
+    //     "web-development/UPSC Aids – Personalized Mentorship & UPSC Preparation Dashboard.jpg"
+    //   ),
+    //   link: "",
+    //   category: "Web Development",
+    //   caseStudy: {
+    //     overview:
+    //       "UPSC Aids supports aspirants preparing for India's most competitive civil service exam. We created a comprehensive preparation platform with personalized mentorship, structured learning programs, and progress tracking that helps students navigate the challenging UPSC journey systematically.",
+    //     challenge:
+    //       "UPSC preparation is a multi-year journey requiring discipline and guidance. The platform needed to provide structured learning paths while offering personalized mentorship that adapts to each student's strengths and weaknesses. Motivation and progress tracking were critical.",
+    //     approach: [
+    //       "Designed structured learning programs that break down the vast UPSC syllabus into manageable modules.",
+    //       "Built a mentorship matching system that connects students with experienced mentors.",
+    //       "Created comprehensive progress dashboards that track performance across all exam components.",
+    //     ],
+    //     outcome: [
+    //       "Improved exam preparation efficiency with structured, personalized learning paths.",
+    //       "Increased student success rates through effective mentorship connections.",
+    //       "Helped thousands of aspirants stay motivated and on track throughout their preparation journey.",
+    //     ],
+    //     metrics: [
+    //       { label: "Efficiency", value: "Improved" },
+    //       { label: "Success Rate", value: "Increased" },
+    //       { label: "Students", value: "Thousands" },
+    //     ],
+    //     services: ["Exam Preparation", "Mentorship Platform", "Learning Dashboard"],
+    //   },
+    // }),
   ],
   ecommerceWebsites: [
-    enrich({
-      id: 1,
-      title: "Alfa China",
-      description:
-        "B2B import/export platform focused on Chinese products with real-time product listings and supplier directories",
-      image: portfolioImage("ecommerce-websites/Alfa China.png"),
-      link: "",
-      category: "E-commerce Websites",
-      caseStudy: {
-        overview:
-          "Alfa China connects international buyers with Chinese suppliers through a comprehensive B2B platform. We built a robust import/export marketplace featuring real-time product listings, verified supplier directories, and tools that facilitate cross-border trade efficiently.",
-        challenge:
-          "B2B platforms must build trust between international parties who may never meet in person. The challenge was creating verification systems, clear communication tools, and transparent processes that make cross-border transactions feel secure and straightforward.",
-        approach: [
-          "Implemented supplier verification and rating systems to build buyer confidence.",
-          "Created real-time product listing updates that keep inventory information current.",
-          "Developed communication tools that bridge language and time zone barriers.",
-        ],
-        outcome: [
-          "Facilitated successful B2B transactions between international buyers and Chinese suppliers.",
-          "Increased platform trust through verification and transparency features.",
-          "Streamlined import/export processes with integrated trade tools.",
-        ],
-        metrics: [
-          { label: "Transactions", value: "Successful" },
-          { label: "Trust", value: "Increased" },
-          { label: "Efficiency", value: "Streamlined" },
-        ],
-        services: ["B2B Platform", "Import/Export", "Supplier Directory"],
-      },
-    }),
+    // enrich({
+    //   id: 1,
+    //   title: "Alfa China",
+    //   description:
+    //     "B2B import/export platform focused on Chinese products with real-time product listings and supplier directories",
+    //   image: portfolioImage("ecommerce-websites/Alfa China.png"),
+    //   link: "",
+    //   category: "E-commerce Websites",
+    //   caseStudy: {
+    //     overview:
+    //       "Alfa China connects international buyers with Chinese suppliers through a comprehensive B2B platform. We built a robust import/export marketplace featuring real-time product listings, verified supplier directories, and tools that facilitate cross-border trade efficiently.",
+    //     challenge:
+    //       "B2B platforms must build trust between international parties who may never meet in person. The challenge was creating verification systems, clear communication tools, and transparent processes that make cross-border transactions feel secure and straightforward.",
+    //     approach: [
+    //       "Implemented supplier verification and rating systems to build buyer confidence.",
+    //       "Created real-time product listing updates that keep inventory information current.",
+    //       "Developed communication tools that bridge language and time zone barriers.",
+    //     ],
+    //     outcome: [
+    //       "Facilitated successful B2B transactions between international buyers and Chinese suppliers.",
+    //       "Increased platform trust through verification and transparency features.",
+    //       "Streamlined import/export processes with integrated trade tools.",
+    //     ],
+    //     metrics: [
+    //       { label: "Transactions", value: "Successful" },
+    //       { label: "Trust", value: "Increased" },
+    //       { label: "Efficiency", value: "Streamlined" },
+    //     ],
+    //     services: ["B2B Platform", "Import/Export", "Supplier Directory"],
+    //   },
+    // }),
     enrich({
       id: 2,
       title: "Bhola Factory",
@@ -964,37 +964,37 @@ export const portfolioData = {
         services: ["WooCommerce Development", "Ethnic Fashion", "E-commerce Design"],
       },
     }),
-    enrich({
-      id: 3,
-      title: "Davis Grill",
-      description:
-        "Restaurant e-commerce with online food ordering, menu exploration, and delivery integration",
-      image: portfolioImage("ecommerce-websites/Davis Grill.png"),
-      link: "",
-      category: "E-commerce Websites",
-      caseStudy: {
-        overview:
-          "Davis Grill brings their restaurant experience online with a comprehensive ordering platform. We created an e-commerce solution that makes menu exploration enjoyable, simplifies ordering, and seamlessly integrates with delivery services to bring great food to customers' doors.",
-        challenge:
-          "Restaurant e-commerce must make food look appetizing while providing practical ordering functionality. The challenge was creating an engaging menu experience that drives orders while ensuring smooth integration with kitchen operations and delivery partners.",
-        approach: [
-          "Designed an appetizing menu presentation with high-quality food photography.",
-          "Built an intuitive ordering system that handles customizations and special requests.",
-          "Integrated delivery services that coordinate seamlessly with restaurant operations.",
-        ],
-        outcome: [
-          "Increased online orders by 80% through improved menu presentation and ordering flow.",
-          "Reduced order errors with clear customization options and confirmation systems.",
-          "Expanded customer reach through integrated delivery partnerships.",
-        ],
-        metrics: [
-          { label: "Online Orders", value: "↑ 80%" },
-          { label: "Order Accuracy", value: "Improved" },
-          { label: "Reach", value: "Expanded" },
-        ],
-        services: ["Restaurant E-commerce", "Food Ordering", "Delivery Integration"],
-      },
-    }),
+    // enrich({
+    //   id: 3,
+    //   title: "Davis Grill",
+    //   description:
+    //     "Restaurant e-commerce with online food ordering, menu exploration, and delivery integration",
+    //   image: portfolioImage("ecommerce-websites/Davis Grill.png"),
+    //   link: "",
+    //   category: "E-commerce Websites",
+    //   caseStudy: {
+    //     overview:
+    //       "Davis Grill brings their restaurant experience online with a comprehensive ordering platform. We created an e-commerce solution that makes menu exploration enjoyable, simplifies ordering, and seamlessly integrates with delivery services to bring great food to customers' doors.",
+    //     challenge:
+    //       "Restaurant e-commerce must make food look appetizing while providing practical ordering functionality. The challenge was creating an engaging menu experience that drives orders while ensuring smooth integration with kitchen operations and delivery partners.",
+    //     approach: [
+    //       "Designed an appetizing menu presentation with high-quality food photography.",
+    //       "Built an intuitive ordering system that handles customizations and special requests.",
+    //       "Integrated delivery services that coordinate seamlessly with restaurant operations.",
+    //     ],
+    //     outcome: [
+    //       "Increased online orders by 80% through improved menu presentation and ordering flow.",
+    //       "Reduced order errors with clear customization options and confirmation systems.",
+    //       "Expanded customer reach through integrated delivery partnerships.",
+    //     ],
+    //     metrics: [
+    //       { label: "Online Orders", value: "↑ 80%" },
+    //       { label: "Order Accuracy", value: "Improved" },
+    //       { label: "Reach", value: "Expanded" },
+    //     ],
+    //     services: ["Restaurant E-commerce", "Food Ordering", "Delivery Integration"],
+    //   },
+    // }),
     enrich({
       id: 4,
       title: "Mucon Factory",
@@ -1057,37 +1057,37 @@ export const portfolioData = {
         services: ["Fashion E-commerce", "Lookbook Design", "Youth Branding"],
       },
     }),
-    enrich({
-      id: 6,
-      title: "Banjaaran",
-      description:
-        "High-end footwear label blending traditional Indian craftsmanship with modern e-commerce",
-      image: portfolioImage("ecommerce-websites/Banjaaran.png"),
-      link: "",
-      category: "E-commerce Websites",
-      caseStudy: {
-        overview:
-          "Banjaaran celebrates traditional Indian shoemaking through a premium e-commerce experience. We built a sophisticated platform that tells the story of craftsmanship while providing modern shopping convenience, positioning Banjaaran as a luxury brand that honors heritage.",
-        challenge:
-          "Luxury brands must communicate value and craftsmanship beyond just product features. The challenge was creating an e-commerce experience that feels premium and tells the story of traditional craftsmanship while maintaining excellent usability and conversion optimization.",
-        approach: [
-          "Designed a premium, heritage-focused brand experience that celebrates craftsmanship.",
-          "Created storytelling elements that connect products to traditional shoemaking techniques.",
-          "Built a sophisticated e-commerce platform that matches luxury brand expectations.",
-        ],
-        outcome: [
-          "Enhanced brand perception as a premium, heritage-focused footwear label.",
-          "Increased average order value through effective storytelling and premium positioning.",
-          "Successfully blended traditional craftsmanship narrative with modern e-commerce functionality.",
-        ],
-        metrics: [
-          { label: "Brand Perception", value: "Premium" },
-          { label: "Order Value", value: "Increased" },
-          { label: "Heritage", value: "Celebrated" },
-        ],
-        services: ["Luxury E-commerce", "Heritage Branding", "Craftsmanship Storytelling"],
-      },
-    }),
+    // enrich({
+    //   id: 6,
+    //   title: "Banjaaran",
+    //   description:
+    //     "High-end footwear label blending traditional Indian craftsmanship with modern e-commerce",
+    //   image: portfolioImage("ecommerce-websites/Banjaaran.png"),
+    //   link: "",
+    //   category: "E-commerce Websites",
+    //   caseStudy: {
+    //     overview:
+    //       "Banjaaran celebrates traditional Indian shoemaking through a premium e-commerce experience. We built a sophisticated platform that tells the story of craftsmanship while providing modern shopping convenience, positioning Banjaaran as a luxury brand that honors heritage.",
+    //     challenge:
+    //       "Luxury brands must communicate value and craftsmanship beyond just product features. The challenge was creating an e-commerce experience that feels premium and tells the story of traditional craftsmanship while maintaining excellent usability and conversion optimization.",
+    //     approach: [
+    //       "Designed a premium, heritage-focused brand experience that celebrates craftsmanship.",
+    //       "Created storytelling elements that connect products to traditional shoemaking techniques.",
+    //       "Built a sophisticated e-commerce platform that matches luxury brand expectations.",
+    //     ],
+    //     outcome: [
+    //       "Enhanced brand perception as a premium, heritage-focused footwear label.",
+    //       "Increased average order value through effective storytelling and premium positioning.",
+    //       "Successfully blended traditional craftsmanship narrative with modern e-commerce functionality.",
+    //     ],
+    //     metrics: [
+    //       { label: "Brand Perception", value: "Premium" },
+    //       { label: "Order Value", value: "Increased" },
+    //       { label: "Heritage", value: "Celebrated" },
+    //     ],
+    //     services: ["Luxury E-commerce", "Heritage Branding", "Craftsmanship Storytelling"],
+    //   },
+    // }),
     enrich({
       id: 7,
       title: "GullyLabs",
@@ -1247,70 +1247,70 @@ export const portfolioData = {
         services: ["Veterinary App", "Digital Health", "Lab Integration"],
       },
     }),
-    enrich({
-      id: 3,
-      title: "VetOnline",
-      description:
-        "Telemedicine app allowing pet owners to consult licensed veterinarians through chat or video calls with medical history tracking",
-      image: portfolioImage("app-development/VetOnline.png"),
-      link: "",
-      category: "App Development",
-      subcategory: "Health / Veterinary / Telemedicine",
-      caseStudy: {
-        overview:
-          "VetOnline brings veterinary care to pet owners' homes through telemedicine. We developed an app that enables consultations with licensed veterinarians via chat or video, with comprehensive medical history tracking that ensures continuity of care for pets.",
-        challenge:
-          "Telemedicine requires reliable video technology and secure medical record management. The app needed to provide quality consultations while maintaining HIPAA-compliant medical records and ensuring veterinarians have access to complete pet health histories.",
-        approach: [
-          "Integrated high-quality video consultation technology optimized for mobile devices.",
-          "Built comprehensive medical history tracking that maintains records across consultations.",
-          "Created flexible communication options (chat and video) to meet different consultation needs.",
-        ],
-        outcome: [
-          "Increased access to veterinary care, especially in underserved areas.",
-          "Improved pet health outcomes through timely consultations and complete medical records.",
-          "Enabled veterinarians to serve more patients efficiently through telemedicine.",
-        ],
-        metrics: [
-          { label: "Access", value: "Increased" },
-          { label: "Health Outcomes", value: "Improved" },
-          { label: "Efficiency", value: "Enhanced" },
-        ],
-        services: ["Telemedicine App", "Veterinary Care", "Medical Records"],
-      },
-    }),
-    enrich({
-      id: 4,
-      title: "Sample Collector",
-      description:
-        "App for diagnostic labs and field agents to coordinate sample collections with route management and real-time notifications",
-      image: portfolioImage("app-development/Sample Collector.png"),
-      link: "",
-      category: "App Development",
-      subcategory: "Health / Diagnostics",
-      caseStudy: {
-        overview:
-          "Sample Collector optimizes diagnostic lab operations by coordinating field agents and sample collections. We built a logistics-focused app with route management, real-time notifications, and coordination tools that ensure samples are collected efficiently and delivered on time.",
-        challenge:
-          "Sample collection involves complex logistics with multiple agents, routes, and time-sensitive samples. The app needed to optimize routes, coordinate schedules, and ensure real-time communication between labs and field agents.",
-        approach: [
-          "Developed intelligent route optimization that minimizes travel time and maximizes collections per route.",
-          "Built real-time notification systems that keep all parties informed about collection status.",
-          "Created coordination tools that help labs manage multiple agents and collection schedules efficiently.",
-        ],
-        outcome: [
-          "Reduced collection time by 35% through optimized routing.",
-          "Improved sample delivery reliability with real-time tracking and notifications.",
-          "Increased agent efficiency with better route planning and coordination tools.",
-        ],
-        metrics: [
-          { label: "Collection Time", value: "↓ 35%" },
-          { label: "Reliability", value: "Improved" },
-          { label: "Efficiency", value: "Increased" },
-        ],
-        services: ["Logistics App", "Route Optimization", "Field Coordination"],
-      },
-    }),
+    // enrich({
+    //   id: 3,
+    //   title: "VetOnline",
+    //   description:
+    //     "Telemedicine app allowing pet owners to consult licensed veterinarians through chat or video calls with medical history tracking",
+    //   image: portfolioImage("app-development/VetOnline.png"),
+    //   link: "",
+    //   category: "App Development",
+    //   subcategory: "Health / Veterinary / Telemedicine",
+    //   caseStudy: {
+    //     overview:
+    //       "VetOnline brings veterinary care to pet owners' homes through telemedicine. We developed an app that enables consultations with licensed veterinarians via chat or video, with comprehensive medical history tracking that ensures continuity of care for pets.",
+    //     challenge:
+    //       "Telemedicine requires reliable video technology and secure medical record management. The app needed to provide quality consultations while maintaining HIPAA-compliant medical records and ensuring veterinarians have access to complete pet health histories.",
+    //     approach: [
+    //       "Integrated high-quality video consultation technology optimized for mobile devices.",
+    //       "Built comprehensive medical history tracking that maintains records across consultations.",
+    //       "Created flexible communication options (chat and video) to meet different consultation needs.",
+    //     ],
+    //     outcome: [
+    //       "Increased access to veterinary care, especially in underserved areas.",
+    //       "Improved pet health outcomes through timely consultations and complete medical records.",
+    //       "Enabled veterinarians to serve more patients efficiently through telemedicine.",
+    //     ],
+    //     metrics: [
+    //       { label: "Access", value: "Increased" },
+    //       { label: "Health Outcomes", value: "Improved" },
+    //       { label: "Efficiency", value: "Enhanced" },
+    //     ],
+    //     services: ["Telemedicine App", "Veterinary Care", "Medical Records"],
+    //   },
+    // }),
+    // enrich({
+    //   id: 4,
+    //   title: "Sample Collector",
+    //   description:
+    //     "App for diagnostic labs and field agents to coordinate sample collections with route management and real-time notifications",
+    //   image: portfolioImage("app-development/Sample Collector.png"),
+    //   link: "",
+    //   category: "App Development",
+    //   subcategory: "Health / Diagnostics",
+    //   caseStudy: {
+    //     overview:
+    //       "Sample Collector optimizes diagnostic lab operations by coordinating field agents and sample collections. We built a logistics-focused app with route management, real-time notifications, and coordination tools that ensure samples are collected efficiently and delivered on time.",
+    //     challenge:
+    //       "Sample collection involves complex logistics with multiple agents, routes, and time-sensitive samples. The app needed to optimize routes, coordinate schedules, and ensure real-time communication between labs and field agents.",
+    //     approach: [
+    //       "Developed intelligent route optimization that minimizes travel time and maximizes collections per route.",
+    //       "Built real-time notification systems that keep all parties informed about collection status.",
+    //       "Created coordination tools that help labs manage multiple agents and collection schedules efficiently.",
+    //     ],
+    //     outcome: [
+    //       "Reduced collection time by 35% through optimized routing.",
+    //       "Improved sample delivery reliability with real-time tracking and notifications.",
+    //       "Increased agent efficiency with better route planning and coordination tools.",
+    //     ],
+    //     metrics: [
+    //       { label: "Collection Time", value: "↓ 35%" },
+    //       { label: "Reliability", value: "Improved" },
+    //       { label: "Efficiency", value: "Increased" },
+    //     ],
+    //     services: ["Logistics App", "Route Optimization", "Field Coordination"],
+    //   },
+    // }),
     enrich({
       id: 5,
       title: "Feelit",
@@ -1375,104 +1375,104 @@ export const portfolioData = {
         services: ["HR Platform", "Employee Analytics", "Wellness Tracking"],
       },
     }),
-    enrich({
-      id: 7,
-      title: "Eva Internships",
-      description:
-        "App helping students explore, apply, and manage internships worldwide with listings and mentorship tools",
-      image: portfolioImage("app-development/Eva Internships.webp"),
-      link: "",
-      category: "App Development",
-      subcategory: "Education / Career",
-      caseStudy: {
-        overview:
-          "Eva Internships connects students with global internship opportunities. We developed a platform that helps students discover, apply to, and manage internships worldwide, with integrated mentorship tools that guide career development throughout the internship journey.",
-        challenge:
-          "Internship platforms must help students navigate complex application processes while connecting them with relevant opportunities. The challenge was creating tools that simplify discovery and application while providing mentorship support that enhances the internship experience.",
-        approach: [
-          "Built comprehensive internship listings with filtering and search that help students find relevant opportunities.",
-          "Created application management tools that track progress across multiple applications.",
-          "Integrated mentorship features that connect students with experienced professionals for guidance.",
-        ],
-        outcome: [
-          "Helped thousands of students secure meaningful internship opportunities globally.",
-          "Improved application success rates through better preparation and mentorship support.",
-          "Created a comprehensive platform that supports students throughout their internship journey.",
-        ],
-        metrics: [
-          { label: "Students Helped", value: "Thousands" },
-          { label: "Success Rate", value: "Improved" },
-          { label: "Support", value: "Comprehensive" },
-        ],
-        services: ["Internship Platform", "Career Development", "Mentorship Tools"],
-      },
-    }),
-    enrich({
-      id: 8,
-      title: "Eva Training Certificates",
-      description:
-        "Digital certificate management app for companies and learners to issue, store, and validate training credentials",
-      image: portfolioImage("app-development/Eva Training Certificates.webp"),
-      link: "",
-      category: "App Development",
-      subcategory: "Education / Certification",
-      caseStudy: {
-        overview:
-          "Eva Training Certificates digitizes credential management for training programs. We built a comprehensive app that enables companies to issue certificates, allows learners to store credentials securely, and provides validation tools that verify certificate authenticity.",
-        challenge:
-          "Certificate management requires security, authenticity verification, and easy access. The app needed to prevent fraud while making it simple for learners to access and share their credentials, and for employers to verify them.",
-        approach: [
-          "Developed secure certificate issuance systems with blockchain-based verification.",
-          "Built digital wallet features that let learners store and organize all credentials.",
-          "Created validation tools that allow instant verification of certificate authenticity.",
-        ],
-        outcome: [
-          "Eliminated certificate fraud through secure, verifiable digital credentials.",
-          "Simplified credential management for both issuers and learners.",
-          "Enabled instant verification that speeds up hiring and credential checks.",
-        ],
-        metrics: [
-          { label: "Security", value: "Enhanced" },
-          { label: "Management", value: "Simplified" },
-          { label: "Verification", value: "Instant" },
-        ],
-        services: ["Certificate Management", "Digital Credentials", "Verification System"],
-      },
-    }),
-    enrich({
-      id: 9,
-      title: "Hayaty (iOS & Android)",
-      description:
-        "Healthcare and lifestyle management app for patients and caregivers with medication reminders and health records",
-      image: portfolioImage("app-development/Hayaty.webp"),
-      link: "",
-      iosLink: "",
-      androidLink: "",
-      category: "App Development",
-      subcategory: "Health / Wellness",
-      caseStudy: {
-        overview:
-          "Hayaty supports patients and caregivers in managing health and wellness. We developed a cross-platform app for iOS and Android that provides medication reminders, health record management, and lifestyle tracking tools that help users maintain better health outcomes.",
-        challenge:
-          "Healthcare apps must be reliable, secure, and easy to use for users of all technical abilities. The challenge was creating medication reminder systems that are effective, health record management that's comprehensive yet simple, and features that support both patients and caregivers.",
-        approach: [
-          "Built intelligent medication reminder systems with customizable schedules and notifications.",
-          "Developed secure health record management that organizes medical information clearly.",
-          "Created caregiver features that allow family members to support patient health management.",
-        ],
-        outcome: [
-          "Improved medication adherence through effective reminder systems.",
-          "Enhanced health management with organized, accessible health records.",
-          "Empowered caregivers to support patient wellness more effectively.",
-        ],
-        metrics: [
-          { label: "Adherence", value: "Improved" },
-          { label: "Management", value: "Enhanced" },
-          { label: "Support", value: "Empowered" },
-        ],
-        services: ["Healthcare App", "Medication Management", "Health Records"],
-      },
-    }),
+    // enrich({
+    //   id: 7,
+    //   title: "Eva Internships",
+    //   description:
+    //     "App helping students explore, apply, and manage internships worldwide with listings and mentorship tools",
+    //   image: portfolioImage("app-development/Eva Internships.webp"),
+    //   link: "",
+    //   category: "App Development",
+    //   subcategory: "Education / Career",
+    //   caseStudy: {
+    //     overview:
+    //       "Eva Internships connects students with global internship opportunities. We developed a platform that helps students discover, apply to, and manage internships worldwide, with integrated mentorship tools that guide career development throughout the internship journey.",
+    //     challenge:
+    //       "Internship platforms must help students navigate complex application processes while connecting them with relevant opportunities. The challenge was creating tools that simplify discovery and application while providing mentorship support that enhances the internship experience.",
+    //     approach: [
+    //       "Built comprehensive internship listings with filtering and search that help students find relevant opportunities.",
+    //       "Created application management tools that track progress across multiple applications.",
+    //       "Integrated mentorship features that connect students with experienced professionals for guidance.",
+    //     ],
+    //     outcome: [
+    //       "Helped thousands of students secure meaningful internship opportunities globally.",
+    //       "Improved application success rates through better preparation and mentorship support.",
+    //       "Created a comprehensive platform that supports students throughout their internship journey.",
+    //     ],
+    //     metrics: [
+    //       { label: "Students Helped", value: "Thousands" },
+    //       { label: "Success Rate", value: "Improved" },
+    //       { label: "Support", value: "Comprehensive" },
+    //     ],
+    //     services: ["Internship Platform", "Career Development", "Mentorship Tools"],
+    //   },
+    // }),
+    // enrich({
+    //   id: 8,
+    //   title: "Eva Training Certificates",
+    //   description:
+    //     "Digital certificate management app for companies and learners to issue, store, and validate training credentials",
+    //   image: portfolioImage("app-development/Eva Training Certificates.webp"),
+    //   link: "",
+    //   category: "App Development",
+    //   subcategory: "Education / Certification",
+    //   caseStudy: {
+    //     overview:
+    //       "Eva Training Certificates digitizes credential management for training programs. We built a comprehensive app that enables companies to issue certificates, allows learners to store credentials securely, and provides validation tools that verify certificate authenticity.",
+    //     challenge:
+    //       "Certificate management requires security, authenticity verification, and easy access. The app needed to prevent fraud while making it simple for learners to access and share their credentials, and for employers to verify them.",
+    //     approach: [
+    //       "Developed secure certificate issuance systems with blockchain-based verification.",
+    //       "Built digital wallet features that let learners store and organize all credentials.",
+    //       "Created validation tools that allow instant verification of certificate authenticity.",
+    //     ],
+    //     outcome: [
+    //       "Eliminated certificate fraud through secure, verifiable digital credentials.",
+    //       "Simplified credential management for both issuers and learners.",
+    //       "Enabled instant verification that speeds up hiring and credential checks.",
+    //     ],
+    //     metrics: [
+    //       { label: "Security", value: "Enhanced" },
+    //       { label: "Management", value: "Simplified" },
+    //       { label: "Verification", value: "Instant" },
+    //     ],
+    //     services: ["Certificate Management", "Digital Credentials", "Verification System"],
+    //   },
+    // }),
+    // enrich({
+    //   id: 9,
+    //   title: "Hayaty (iOS & Android)",
+    //   description:
+    //     "Healthcare and lifestyle management app for patients and caregivers with medication reminders and health records",
+    //   image: portfolioImage("app-development/Hayaty.webp"),
+    //   link: "",
+    //   iosLink: "",
+    //   androidLink: "",
+    //   category: "App Development",
+    //   subcategory: "Health / Wellness",
+    //   caseStudy: {
+    //     overview:
+    //       "Hayaty supports patients and caregivers in managing health and wellness. We developed a cross-platform app for iOS and Android that provides medication reminders, health record management, and lifestyle tracking tools that help users maintain better health outcomes.",
+    //     challenge:
+    //       "Healthcare apps must be reliable, secure, and easy to use for users of all technical abilities. The challenge was creating medication reminder systems that are effective, health record management that's comprehensive yet simple, and features that support both patients and caregivers.",
+    //     approach: [
+    //       "Built intelligent medication reminder systems with customizable schedules and notifications.",
+    //       "Developed secure health record management that organizes medical information clearly.",
+    //       "Created caregiver features that allow family members to support patient health management.",
+    //     ],
+    //     outcome: [
+    //       "Improved medication adherence through effective reminder systems.",
+    //       "Enhanced health management with organized, accessible health records.",
+    //       "Empowered caregivers to support patient wellness more effectively.",
+    //     ],
+    //     metrics: [
+    //       { label: "Adherence", value: "Improved" },
+    //       { label: "Management", value: "Enhanced" },
+    //       { label: "Support", value: "Empowered" },
+    //     ],
+    //     services: ["Healthcare App", "Medication Management", "Health Records"],
+    //   },
+    // }),
     enrich({
       id: 10,
       title: "Naseh (iOS & Android - ناصح)",
@@ -1507,38 +1507,38 @@ export const portfolioData = {
         services: ["Religious App", "Spiritual Development", "Bilingual Platform"],
       },
     }),
-    enrich({
-      id: 11,
-      title: "Lafi (iOS - لافي)",
-      description:
-        "Premium Arabic-language shopping platform with hand-picked product categories and modern UI",
-      image: portfolioImage("app-development/Lafi.webp"),
-      link: "",
-      category: "App Development",
-      subcategory: "E-commerce",
-      caseStudy: {
-        overview:
-          "Lafi brings premium shopping to Arabic-speaking customers with a curated, hand-picked product selection. We developed an iOS app with a modern, elegant UI that showcases quality products while providing a seamless shopping experience tailored to Arabic language and cultural preferences.",
-        challenge:
-          "Arabic e-commerce requires RTL (right-to-left) support and cultural considerations. The challenge was creating a premium shopping experience that feels native to Arabic speakers while maintaining modern design standards and excellent performance.",
-        approach: [
-          "Designed a modern, elegant UI with full RTL support for Arabic language.",
-          "Built curated product categories with hand-picked selections that emphasize quality.",
-          "Created a premium shopping experience that matches high-end retail expectations.",
-        ],
-        outcome: [
-          "Established Lafi as a premium shopping destination for Arabic-speaking customers.",
-          "Increased customer satisfaction with culturally appropriate design and language support.",
-          "Built trust through curated product selection and premium user experience.",
-        ],
-        metrics: [
-          { label: "Brand Position", value: "Premium" },
-          { label: "Satisfaction", value: "High" },
-          { label: "Trust", value: "Built" },
-        ],
-        services: ["Arabic E-commerce", "iOS Development", "RTL Support"],
-      },
-    }),
+    // enrich({
+    //   id: 11,
+    //   title: "Lafi (iOS - لافي)",
+    //   description:
+    //     "Premium Arabic-language shopping platform with hand-picked product categories and modern UI",
+    //   image: portfolioImage("app-development/Lafi.webp"),
+    //   link: "",
+    //   category: "App Development",
+    //   subcategory: "E-commerce",
+    //   caseStudy: {
+    //     overview:
+    //       "Lafi brings premium shopping to Arabic-speaking customers with a curated, hand-picked product selection. We developed an iOS app with a modern, elegant UI that showcases quality products while providing a seamless shopping experience tailored to Arabic language and cultural preferences.",
+    //     challenge:
+    //       "Arabic e-commerce requires RTL (right-to-left) support and cultural considerations. The challenge was creating a premium shopping experience that feels native to Arabic speakers while maintaining modern design standards and excellent performance.",
+    //     approach: [
+    //       "Designed a modern, elegant UI with full RTL support for Arabic language.",
+    //       "Built curated product categories with hand-picked selections that emphasize quality.",
+    //       "Created a premium shopping experience that matches high-end retail expectations.",
+    //     ],
+    //     outcome: [
+    //       "Established Lafi as a premium shopping destination for Arabic-speaking customers.",
+    //       "Increased customer satisfaction with culturally appropriate design and language support.",
+    //       "Built trust through curated product selection and premium user experience.",
+    //     ],
+    //     metrics: [
+    //       { label: "Brand Position", value: "Premium" },
+    //       { label: "Satisfaction", value: "High" },
+    //       { label: "Trust", value: "Built" },
+    //     ],
+    //     services: ["Arabic E-commerce", "iOS Development", "RTL Support"],
+    //   },
+    // }),
     enrich({
       id: 12,
       title: "Rentop",
@@ -1699,38 +1699,38 @@ export const portfolioData = {
         services: ["Comic Reading App", "Animation Technology", "Content Platform"],
       },
     }),
-    enrich({
-      id: 17,
-      title: "Dubai Travel Guide by eTips",
-      description:
-        "Digital travel companion for Dubai tourists with offline maps, sightseeing highlights, and audio guides",
-      image: portfolioImage("app-development/Dubai Travel Guide by eTips.webp"),
-      link: "",
-      category: "App Development",
-      subcategory: "Travel / Tourism",
-      caseStudy: {
-        overview:
-          "Dubai Travel Guide by eTips serves as a comprehensive digital companion for tourists. We developed a travel app featuring offline maps, curated sightseeing highlights, and audio guides that help visitors explore Dubai even without internet connectivity.",
-        challenge:
-          "Travel apps must work reliably in areas with poor connectivity. The challenge was creating offline functionality for maps and content while providing rich, engaging information about attractions that enhances the travel experience.",
-        approach: [
-          "Built offline map functionality that works without internet connectivity.",
-          "Created curated sightseeing content with detailed information about attractions.",
-          "Developed audio guide features that provide immersive tour experiences.",
-        ],
-        outcome: [
-          "Helped thousands of tourists navigate Dubai confidently with offline maps.",
-          "Enhanced travel experiences with comprehensive attraction information and audio guides.",
-          "Created a reliable travel companion that works anywhere in Dubai.",
-        ],
-        metrics: [
-          { label: "Tourists Helped", value: "Thousands" },
-          { label: "Experience", value: "Enhanced" },
-          { label: "Reliability", value: "Offline" },
-        ],
-        services: ["Travel App", "Offline Maps", "Audio Guides"],
-      },
-    }),
+    // enrich({
+    //   id: 17,
+    //   title: "Dubai Travel Guide by eTips",
+    //   description:
+    //     "Digital travel companion for Dubai tourists with offline maps, sightseeing highlights, and audio guides",
+    //   image: portfolioImage("app-development/Dubai Travel Guide by eTips.webp"),
+    //   link: "",
+    //   category: "App Development",
+    //   subcategory: "Travel / Tourism",
+    //   caseStudy: {
+    //     overview:
+    //       "Dubai Travel Guide by eTips serves as a comprehensive digital companion for tourists. We developed a travel app featuring offline maps, curated sightseeing highlights, and audio guides that help visitors explore Dubai even without internet connectivity.",
+    //     challenge:
+    //       "Travel apps must work reliably in areas with poor connectivity. The challenge was creating offline functionality for maps and content while providing rich, engaging information about attractions that enhances the travel experience.",
+    //     approach: [
+    //       "Built offline map functionality that works without internet connectivity.",
+    //       "Created curated sightseeing content with detailed information about attractions.",
+    //       "Developed audio guide features that provide immersive tour experiences.",
+    //     ],
+    //     outcome: [
+    //       "Helped thousands of tourists navigate Dubai confidently with offline maps.",
+    //       "Enhanced travel experiences with comprehensive attraction information and audio guides.",
+    //       "Created a reliable travel companion that works anywhere in Dubai.",
+    //     ],
+    //     metrics: [
+    //       { label: "Tourists Helped", value: "Thousands" },
+    //       { label: "Experience", value: "Enhanced" },
+    //       { label: "Reliability", value: "Offline" },
+    //     ],
+    //     services: ["Travel App", "Offline Maps", "Audio Guides"],
+    //   },
+    // }),
     enrich({
       id: 18,
       title: "Planta",
@@ -1861,38 +1861,38 @@ export const portfolioData = {
         services: ["Farm-to-Home E-commerce", "Real-Time Orders", "Fresh Produce"],
       },
     }),
-    enrich({
-      id: 22,
-      title: "Fresh and Fresh",
-      description:
-        "Grocery delivery app connecting users to local stores for daily essentials with flexible delivery slots",
-      image: portfolioImage("app-development/Fresh and Fresh.webp"),
-      link: "",
-      category: "App Development",
-      subcategory: "E-commerce / Grocery",
-      caseStudy: {
-        overview:
-          "Fresh and Fresh makes grocery shopping convenient by connecting users with local stores. We developed a grocery delivery app that offers flexible delivery slots, real-time inventory from local stores, and seamless ordering that brings daily essentials to customers' doors.",
-        challenge:
-          "Grocery delivery requires coordination with multiple local stores and flexible scheduling. The app needed to show real-time inventory, manage delivery slots efficiently, and coordinate between customers, stores, and delivery personnel.",
-        approach: [
-          "Built flexible delivery slot management that accommodates customer preferences.",
-          "Developed real-time inventory integration with local stores.",
-          "Created efficient order coordination that ensures timely delivery of fresh groceries.",
-        ],
-        outcome: [
-          "Increased convenience for customers with flexible delivery options.",
-          "Supported local stores by connecting them with more customers.",
-          "Created a reliable grocery delivery service that serves daily shopping needs.",
-        ],
-        metrics: [
-          { label: "Convenience", value: "Increased" },
-          { label: "Store Support", value: "Local" },
-          { label: "Service", value: "Reliable" },
-        ],
-        services: ["Grocery Delivery", "Local Store Integration", "Flexible Scheduling"],
-      },
-    }),
+    // enrich({
+    //   id: 22,
+    //   title: "Fresh and Fresh",
+    //   description:
+    //     "Grocery delivery app connecting users to local stores for daily essentials with flexible delivery slots",
+    //   image: portfolioImage("app-development/Fresh and Fresh.webp"),
+    //   link: "",
+    //   category: "App Development",
+    //   subcategory: "E-commerce / Grocery",
+    //   caseStudy: {
+    //     overview:
+    //       "Fresh and Fresh makes grocery shopping convenient by connecting users with local stores. We developed a grocery delivery app that offers flexible delivery slots, real-time inventory from local stores, and seamless ordering that brings daily essentials to customers' doors.",
+    //     challenge:
+    //       "Grocery delivery requires coordination with multiple local stores and flexible scheduling. The app needed to show real-time inventory, manage delivery slots efficiently, and coordinate between customers, stores, and delivery personnel.",
+    //     approach: [
+    //       "Built flexible delivery slot management that accommodates customer preferences.",
+    //       "Developed real-time inventory integration with local stores.",
+    //       "Created efficient order coordination that ensures timely delivery of fresh groceries.",
+    //     ],
+    //     outcome: [
+    //       "Increased convenience for customers with flexible delivery options.",
+    //       "Supported local stores by connecting them with more customers.",
+    //       "Created a reliable grocery delivery service that serves daily shopping needs.",
+    //     ],
+    //     metrics: [
+    //       { label: "Convenience", value: "Increased" },
+    //       { label: "Store Support", value: "Local" },
+    //       { label: "Service", value: "Reliable" },
+    //     ],
+    //     services: ["Grocery Delivery", "Local Store Integration", "Flexible Scheduling"],
+    //   },
+    // }),
     enrich({
       id: 23,
       title: "Bharat Meds",
@@ -1927,108 +1927,108 @@ export const portfolioData = {
         services: ["Medicine Delivery", "Pharmacy Integration", "Real-Time Tracking"],
       },
     }),
-    enrich({
-      id: 24,
-      title: "Crimson Classified Hub",
-      description:
-        "Community-driven classifieds platform for local listings and community engagement",
-      image: portfolioImage(
-        "app-development/Crimson Classified Hub – Community-Driven Classifieds Platform.jpg"
-      ),
-      link: "",
-      category: "App Development",
-      subcategory: "Classifieds / Community",
-      caseStudy: {
-        overview:
-          "Crimson Classified Hub creates a community-focused marketplace for local listings. We developed a classifieds app that emphasizes community engagement, local connections, and user-driven content moderation, creating a trusted platform for local buying and selling.",
-        challenge:
-          "Classifieds platforms must balance openness with safety and community standards. The challenge was creating moderation tools, building trust between users, and fostering community engagement while maintaining a user-friendly listing experience.",
-        approach: [
-          "Built community-driven moderation features that empower users to maintain quality.",
-          "Developed local focus features that connect neighbors and community members.",
-          "Created engagement tools that encourage community interaction beyond transactions.",
-        ],
-        outcome: [
-          "Built a strong community of local users engaging in classified transactions.",
-          "Increased trust in local classifieds through community-driven moderation.",
-          "Created a platform that strengthens local community connections.",
-        ],
-        metrics: [
-          { label: "Community", value: "Strong" },
-          { label: "Trust", value: "Increased" },
-          { label: "Connections", value: "Local" },
-        ],
-        services: ["Classifieds Platform", "Community Engagement", "Local Marketplace"],
-      },
-    }),
-    enrich({
-      id: 25,
-      title: "Dubai Classifieds Pulse",
-      description:
-        "Hyperlocal classifieds listings platform for Dubai community",
-      image: portfolioImage(
-        "app-development/Dubai Classifieds Pulse – Hyperlocal Classified Listings Platform.jpg"
-      ),
-      link: "",
-      category: "App Development",
-      subcategory: "Classifieds / Local",
-      caseStudy: {
-        overview:
-          "Dubai Classifieds Pulse serves the Dubai community with hyperlocal classified listings. We developed a location-focused app that connects Dubai residents for buying, selling, and services, with features tailored to the unique needs of the Dubai market.",
-        challenge:
-          "Hyperlocal platforms must provide relevant, location-specific content. The challenge was creating location-based filtering, understanding Dubai's unique market needs, and building trust in a diverse, international community.",
-        approach: [
-          "Built hyperlocal filtering that shows listings relevant to specific Dubai neighborhoods.",
-          "Developed features tailored to Dubai's diverse, international community.",
-          "Created trust-building features that work across different cultural backgrounds.",
-        ],
-        outcome: [
-          "Created a trusted platform for Dubai residents to buy, sell, and connect locally.",
-          "Increased local engagement through hyperlocal features and neighborhood focus.",
-          "Built a marketplace that serves Dubai's unique, diverse community needs.",
-        ],
-        metrics: [
-          { label: "Trust", value: "Built" },
-          { label: "Engagement", value: "Local" },
-          { label: "Relevance", value: "Hyperlocal" },
-        ],
-        services: ["Hyperlocal Classifieds", "Dubai Marketplace", "Community Platform"],
-      },
-    }),
-    enrich({
-      id: 26,
-      title: "Ember",
-      description:
-        "AI-powered soulmate matching & conversation platform for relationship building",
-      image: portfolioImage(
-        "app-development/Ember – AI-Powered Soulmate Matching & Conversation Platform.jpg"
-      ),
-      link: "",
-      category: "App Development",
-      subcategory: "Dating / AI",
-      caseStudy: {
-        overview:
-          "Ember uses AI to create meaningful connections through intelligent matching and conversation assistance. We developed a dating app that goes beyond surface-level matching, using AI to facilitate deeper conversations and help users build genuine relationships.",
-        challenge:
-          "Dating apps must balance AI assistance with authentic human connection. The challenge was creating matching algorithms that understand compatibility while providing conversation tools that enhance rather than replace genuine interaction.",
-        approach: [
-          "Developed AI-powered matching algorithms that analyze compatibility beyond basic preferences.",
-          "Built conversation assistance features that help users start meaningful discussions.",
-          "Created relationship-building tools that support connections beyond initial matching.",
-        ],
-        outcome: [
-          "Increased meaningful connections through intelligent, compatibility-focused matching.",
-          "Improved conversation quality with AI-assisted conversation starters and guidance.",
-          "Created a platform that prioritizes genuine relationship building over casual connections.",
-        ],
-        metrics: [
-          { label: "Connections", value: "Meaningful" },
-          { label: "Conversation", value: "Improved" },
-          { label: "Focus", value: "Relationships" },
-        ],
-        services: ["AI Dating App", "Soulmate Matching", "Conversation Platform"],
-      },
-    }),
+    // enrich({
+    //   id: 24,
+    //   title: "Crimson Classified Hub",
+    //   description:
+    //     "Community-driven classifieds platform for local listings and community engagement",
+    //   image: portfolioImage(
+    //     "app-development/Crimson Classified Hub – Community-Driven Classifieds Platform.jpg"
+    //   ),
+    //   link: "",
+    //   category: "App Development",
+    //   subcategory: "Classifieds / Community",
+    //   caseStudy: {
+    //     overview:
+    //       "Crimson Classified Hub creates a community-focused marketplace for local listings. We developed a classifieds app that emphasizes community engagement, local connections, and user-driven content moderation, creating a trusted platform for local buying and selling.",
+    //     challenge:
+    //       "Classifieds platforms must balance openness with safety and community standards. The challenge was creating moderation tools, building trust between users, and fostering community engagement while maintaining a user-friendly listing experience.",
+    //     approach: [
+    //       "Built community-driven moderation features that empower users to maintain quality.",
+    //       "Developed local focus features that connect neighbors and community members.",
+    //       "Created engagement tools that encourage community interaction beyond transactions.",
+    //     ],
+    //     outcome: [
+    //       "Built a strong community of local users engaging in classified transactions.",
+    //       "Increased trust in local classifieds through community-driven moderation.",
+    //       "Created a platform that strengthens local community connections.",
+    //     ],
+    //     metrics: [
+    //       { label: "Community", value: "Strong" },
+    //       { label: "Trust", value: "Increased" },
+    //       { label: "Connections", value: "Local" },
+    //     ],
+    //     services: ["Classifieds Platform", "Community Engagement", "Local Marketplace"],
+    //   },
+    // }),
+    // enrich({
+    //   id: 25,
+    //   title: "Dubai Classifieds Pulse",
+    //   description:
+    //     "Hyperlocal classifieds listings platform for Dubai community",
+    //   image: portfolioImage(
+    //     "app-development/Dubai Classifieds Pulse – Hyperlocal Classified Listings Platform.jpg"
+    //   ),
+    //   link: "",
+    //   category: "App Development",
+    //   subcategory: "Classifieds / Local",
+    //   caseStudy: {
+    //     overview:
+    //       "Dubai Classifieds Pulse serves the Dubai community with hyperlocal classified listings. We developed a location-focused app that connects Dubai residents for buying, selling, and services, with features tailored to the unique needs of the Dubai market.",
+    //     challenge:
+    //       "Hyperlocal platforms must provide relevant, location-specific content. The challenge was creating location-based filtering, understanding Dubai's unique market needs, and building trust in a diverse, international community.",
+    //     approach: [
+    //       "Built hyperlocal filtering that shows listings relevant to specific Dubai neighborhoods.",
+    //       "Developed features tailored to Dubai's diverse, international community.",
+    //       "Created trust-building features that work across different cultural backgrounds.",
+    //     ],
+    //     outcome: [
+    //       "Created a trusted platform for Dubai residents to buy, sell, and connect locally.",
+    //       "Increased local engagement through hyperlocal features and neighborhood focus.",
+    //       "Built a marketplace that serves Dubai's unique, diverse community needs.",
+    //     ],
+    //     metrics: [
+    //       { label: "Trust", value: "Built" },
+    //       { label: "Engagement", value: "Local" },
+    //       { label: "Relevance", value: "Hyperlocal" },
+    //     ],
+    //     services: ["Hyperlocal Classifieds", "Dubai Marketplace", "Community Platform"],
+    //   },
+    // }),
+    // enrich({
+    //   id: 26,
+    //   title: "Ember",
+    //   description:
+    //     "AI-powered soulmate matching & conversation platform for relationship building",
+    //   image: portfolioImage(
+    //     "app-development/Ember – AI-Powered Soulmate Matching & Conversation Platform.jpg"
+    //   ),
+    //   link: "",
+    //   category: "App Development",
+    //   subcategory: "Dating / AI",
+    //   caseStudy: {
+    //     overview:
+    //       "Ember uses AI to create meaningful connections through intelligent matching and conversation assistance. We developed a dating app that goes beyond surface-level matching, using AI to facilitate deeper conversations and help users build genuine relationships.",
+    //     challenge:
+    //       "Dating apps must balance AI assistance with authentic human connection. The challenge was creating matching algorithms that understand compatibility while providing conversation tools that enhance rather than replace genuine interaction.",
+    //     approach: [
+    //       "Developed AI-powered matching algorithms that analyze compatibility beyond basic preferences.",
+    //       "Built conversation assistance features that help users start meaningful discussions.",
+    //       "Created relationship-building tools that support connections beyond initial matching.",
+    //     ],
+    //     outcome: [
+    //       "Increased meaningful connections through intelligent, compatibility-focused matching.",
+    //       "Improved conversation quality with AI-assisted conversation starters and guidance.",
+    //       "Created a platform that prioritizes genuine relationship building over casual connections.",
+    //     ],
+    //     metrics: [
+    //       { label: "Connections", value: "Meaningful" },
+    //       { label: "Conversation", value: "Improved" },
+    //       { label: "Focus", value: "Relationships" },
+    //     ],
+    //     services: ["AI Dating App", "Soulmate Matching", "Conversation Platform"],
+    //   },
+    // }),
     enrich({
       id: 27,
       title: "UrjaOne Nexus",
@@ -2229,70 +2229,70 @@ export const portfolioData = {
         services: ["Blockchain Platform", "Carbon Offsetting", "NFT Utility"],
       },
     }),
-    enrich({
-      id: 2,
-      title: "Earlynctr",
-      description:
-        "Curated investment platform for early-stage crypto projects and blockchain startups with vetted listings and community voting",
-      image: portfolioImage("blockchain/Earlynctr.png"),
-      link: "",
-      category: "Blockchain",
-      subcategory: "Crypto Investment / Startup Incubation",
-      caseStudy: {
-        overview:
-          "Earlynctr creates a trusted platform for discovering and investing in early-stage crypto projects. We developed a curated investment platform featuring vetted project listings, community voting mechanisms, and comprehensive due diligence tools that help investors make informed decisions in the blockchain space.",
-        challenge:
-          "Crypto investment platforms must balance accessibility with security and due diligence. The challenge was creating vetting processes that filter quality projects while providing community-driven insights that help investors evaluate opportunities effectively.",
-        approach: [
-          "Built comprehensive vetting systems that evaluate projects across multiple criteria.",
-          "Developed community voting mechanisms that surface promising projects through collective intelligence.",
-          "Created due diligence tools that provide investors with essential project information.",
-        ],
-        outcome: [
-          "Helped investors discover quality early-stage crypto projects through curated listings.",
-          "Increased investment confidence with comprehensive vetting and community insights.",
-          "Created a platform that supports blockchain startup ecosystem growth.",
-        ],
-        metrics: [
-          { label: "Discovery", value: "Quality Projects" },
-          { label: "Confidence", value: "Increased" },
-          { label: "Support", value: "Ecosystem Growth" },
-        ],
-        services: ["Crypto Investment Platform", "Project Vetting", "Community Voting"],
-      },
-    }),
-    enrich({
-      id: 3,
-      title: "Solalgo",
-      description:
-        "Analytics engine built for the Solana ecosystem providing DApp performance metrics, smart contract tracking, and real-time data visualization",
-      image: portfolioImage("blockchain/Solalgo.png"),
-      link: "",
-      category: "Blockchain",
-      subcategory: "Blockchain Analytics / Developer Tools",
-      caseStudy: {
-        overview:
-          "Solalgo provides comprehensive analytics for the Solana blockchain ecosystem. We developed an analytics engine that tracks DApp performance, monitors smart contract activity, and provides real-time data visualization, giving developers and investors essential insights into Solana-based projects.",
-        challenge:
-          "Blockchain analytics must process vast amounts of on-chain data in real-time. The challenge was creating systems that aggregate, analyze, and visualize Solana blockchain data efficiently while providing actionable insights for developers and investors.",
-        approach: [
-          "Built real-time data processing systems that track Solana blockchain activity continuously.",
-          "Developed DApp performance metrics that help developers optimize their applications.",
-          "Created intuitive data visualization that makes complex blockchain data accessible.",
-        ],
-        outcome: [
-          "Provided essential analytics tools for Solana ecosystem developers and investors.",
-          "Increased transparency in DApp performance through comprehensive metrics.",
-          "Created a valuable resource for understanding Solana blockchain activity and trends.",
-        ],
-        metrics: [
-          { label: "Tools", value: "Essential" },
-          { label: "Transparency", value: "Increased" },
-          { label: "Resource", value: "Valuable" },
-        ],
-        services: ["Blockchain Analytics", "Solana Tools", "Data Visualization"],
-      },
-    }),
+    // enrich({
+    //   id: 2,
+    //   title: "Earlynctr",
+    //   description:
+    //     "Curated investment platform for early-stage crypto projects and blockchain startups with vetted listings and community voting",
+    //   image: portfolioImage("blockchain/Earlynctr.png"),
+    //   link: "",
+    //   category: "Blockchain",
+    //   subcategory: "Crypto Investment / Startup Incubation",
+    //   caseStudy: {
+    //     overview:
+    //       "Earlynctr creates a trusted platform for discovering and investing in early-stage crypto projects. We developed a curated investment platform featuring vetted project listings, community voting mechanisms, and comprehensive due diligence tools that help investors make informed decisions in the blockchain space.",
+    //     challenge:
+    //       "Crypto investment platforms must balance accessibility with security and due diligence. The challenge was creating vetting processes that filter quality projects while providing community-driven insights that help investors evaluate opportunities effectively.",
+    //     approach: [
+    //       "Built comprehensive vetting systems that evaluate projects across multiple criteria.",
+    //       "Developed community voting mechanisms that surface promising projects through collective intelligence.",
+    //       "Created due diligence tools that provide investors with essential project information.",
+    //     ],
+    //     outcome: [
+    //       "Helped investors discover quality early-stage crypto projects through curated listings.",
+    //       "Increased investment confidence with comprehensive vetting and community insights.",
+    //       "Created a platform that supports blockchain startup ecosystem growth.",
+    //     ],
+    //     metrics: [
+    //       { label: "Discovery", value: "Quality Projects" },
+    //       { label: "Confidence", value: "Increased" },
+    //       { label: "Support", value: "Ecosystem Growth" },
+    //     ],
+    //     services: ["Crypto Investment Platform", "Project Vetting", "Community Voting"],
+    //   },
+    // }),
+    // enrich({
+    //   id: 3,
+    //   title: "Solalgo",
+    //   description:
+    //     "Analytics engine built for the Solana ecosystem providing DApp performance metrics, smart contract tracking, and real-time data visualization",
+    //   image: portfolioImage("blockchain/Solalgo.png"),
+    //   link: "",
+    //   category: "Blockchain",
+    //   subcategory: "Blockchain Analytics / Developer Tools",
+    //   caseStudy: {
+    //     overview:
+    //       "Solalgo provides comprehensive analytics for the Solana blockchain ecosystem. We developed an analytics engine that tracks DApp performance, monitors smart contract activity, and provides real-time data visualization, giving developers and investors essential insights into Solana-based projects.",
+    //     challenge:
+    //       "Blockchain analytics must process vast amounts of on-chain data in real-time. The challenge was creating systems that aggregate, analyze, and visualize Solana blockchain data efficiently while providing actionable insights for developers and investors.",
+    //     approach: [
+    //       "Built real-time data processing systems that track Solana blockchain activity continuously.",
+    //       "Developed DApp performance metrics that help developers optimize their applications.",
+    //       "Created intuitive data visualization that makes complex blockchain data accessible.",
+    //     ],
+    //     outcome: [
+    //       "Provided essential analytics tools for Solana ecosystem developers and investors.",
+    //       "Increased transparency in DApp performance through comprehensive metrics.",
+    //       "Created a valuable resource for understanding Solana blockchain activity and trends.",
+    //     ],
+    //     metrics: [
+    //       { label: "Tools", value: "Essential" },
+    //       { label: "Transparency", value: "Increased" },
+    //       { label: "Resource", value: "Valuable" },
+    //     ],
+    //     services: ["Blockchain Analytics", "Solana Tools", "Data Visualization"],
+    //   },
+    // }),
   ],
   chatbot: [
     enrich({
@@ -2393,38 +2393,38 @@ export const portfolioData = {
     }),
   ],
   gameDevelopment: [
-    enrich({
-      id: 1,
-      title: "Action Player Games",
-      description:
-        "Diverse collection of fast-paced arcade-style mini-games designed to keep users engaged with adrenaline-packed gameplay",
-      image: portfolioImage("game development/2 3 4 Player Mini Games.webp"),
-      link: "",
-      category: "Game Development",
-      subcategory: "Action / Arcade Bundle",
-      caseStudy: {
-        overview:
-          "Action Player Games delivers adrenaline-packed entertainment through a diverse collection of arcade mini-games. We developed a game bundle featuring fast-paced action games designed for 2-4 players, creating engaging multiplayer experiences that keep players coming back for more.",
-        challenge:
-          "Multiplayer arcade games must balance simplicity with engagement. The challenge was creating diverse mini-games that are easy to learn but challenging to master, with smooth multiplayer functionality that works reliably across different devices.",
-        approach: [
-          "Developed multiple arcade-style mini-games with varied gameplay mechanics.",
-          "Built robust multiplayer systems that support 2-4 players seamlessly.",
-          "Created engaging progression systems that maintain long-term player interest.",
-        ],
-        outcome: [
-          "Created an entertaining game collection that appeals to casual and competitive players.",
-          "Increased player engagement through diverse gameplay and multiplayer features.",
-          "Established Action Player Games as a go-to destination for quick, fun gaming sessions.",
-        ],
-        metrics: [
-          { label: "Entertainment", value: "High" },
-          { label: "Engagement", value: "Increased" },
-          { label: "Position", value: "Go-To" },
-        ],
-        services: ["Game Development", "Multiplayer Games", "Arcade Bundle"],
-      },
-    }),
+    // enrich({
+    //   id: 1,
+    //   title: "Action Player Games",
+    //   description:
+    //     "Diverse collection of fast-paced arcade-style mini-games designed to keep users engaged with adrenaline-packed gameplay",
+    //   image: portfolioImage("game development/2 3 4 Player Mini Games.webp"),
+    //   link: "",
+    //   category: "Game Development",
+    //   subcategory: "Action / Arcade Bundle",
+    //   caseStudy: {
+    //     overview:
+    //       "Action Player Games delivers adrenaline-packed entertainment through a diverse collection of arcade mini-games. We developed a game bundle featuring fast-paced action games designed for 2-4 players, creating engaging multiplayer experiences that keep players coming back for more.",
+    //     challenge:
+    //       "Multiplayer arcade games must balance simplicity with engagement. The challenge was creating diverse mini-games that are easy to learn but challenging to master, with smooth multiplayer functionality that works reliably across different devices.",
+    //     approach: [
+    //       "Developed multiple arcade-style mini-games with varied gameplay mechanics.",
+    //       "Built robust multiplayer systems that support 2-4 players seamlessly.",
+    //       "Created engaging progression systems that maintain long-term player interest.",
+    //     ],
+    //     outcome: [
+    //       "Created an entertaining game collection that appeals to casual and competitive players.",
+    //       "Increased player engagement through diverse gameplay and multiplayer features.",
+    //       "Established Action Player Games as a go-to destination for quick, fun gaming sessions.",
+    //     ],
+    //     metrics: [
+    //       { label: "Entertainment", value: "High" },
+    //       { label: "Engagement", value: "Increased" },
+    //       { label: "Position", value: "Go-To" },
+    //     ],
+    //     services: ["Game Development", "Multiplayer Games", "Arcade Bundle"],
+    //   },
+    // }),
     enrich({
       id: 2,
       title: "Worms Zone.io",

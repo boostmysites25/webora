@@ -179,7 +179,7 @@ export const portfolioData = {
       description:
         "Promotional website for broadband service provider with plan comparisons, service availability checkers, and inquiry forms",
       image: portfolioImage("web-development/5ghomes.webp"),
-      link: "#",
+      link: "",
       category: "Web Development",
       caseStudy: {
         overview:
@@ -272,7 +272,7 @@ export const portfolioData = {
       description:
         "Global industrial solutions provider with multilingual support, animation-driven UI, and structured service flows",
       image: portfolioImage("web-development/FE Group.png"),
-      link: "#",
+      link: "",
       category: "Web Development",
       caseStudy: {
         overview:
@@ -520,7 +520,7 @@ export const portfolioData = {
       description:
         "Educational services platform providing structured programs and resources for regional educational development",
       image: portfolioImage("web-development/Educateast.png"),
-      link: "#",
+      link: "",
       category: "Web Development",
       caseStudy: {
         overview:
@@ -582,7 +582,7 @@ export const portfolioData = {
       description:
         "English language training platform for IELTS, TOEFL, and spoken English courses with mobile-optimized learning",
       image: portfolioImage("web-development/Backstage English RC.png"),
-      link: "#",
+      link: "",
       category: "Web Development",
       caseStudy: {
         overview:
@@ -677,7 +677,7 @@ export const portfolioData = {
       image: portfolioImage(
         "web-development/CoffeeLavka Express Track – Real-Time Coffee Order Tracking Platform.jpg"
       ),
-      link: "#",
+      link: "",
       category: "Web Development",
       caseStudy: {
         overview:
@@ -743,7 +743,7 @@ export const portfolioData = {
       image: portfolioImage(
         "web-development/Fashion Journey Navigator – Personalized Style Discovery Platform.jpg"
       ),
-      link: "#",
+      link: "",
       category: "Web Development",
       caseStudy: {
         overview:
@@ -776,7 +776,7 @@ export const portfolioData = {
       image: portfolioImage(
         "web-development/Interview Pro – Professional Interview Scheduling & Management Platform.jpg"
       ),
-      link: "#",
+      link: "",
       category: "Web Development",
       caseStudy: {
         overview:
@@ -809,7 +809,7 @@ export const portfolioData = {
       image: portfolioImage(
         "web-development/Mediverse Connect AI – AI-Powered Healthcare Networking Platform.jpg"
       ),
-      link: "#",
+      link: "",
       category: "Web Development",
       caseStudy: {
         overview:
@@ -842,7 +842,7 @@ export const portfolioData = {
       image: portfolioImage(
         "web-development/StreamVerse – Smart Rental Management Platform.jpg"
       ),
-      link: "#",
+      link: "",
       category: "Web Development",
       caseStudy: {
         overview:
@@ -875,7 +875,7 @@ export const portfolioData = {
       image: portfolioImage(
         "web-development/UPSC Aids – Personalized Mentorship & UPSC Preparation Dashboard.jpg"
       ),
-      link: "#",
+      link: "",
       category: "Web Development",
       caseStudy: {
         overview:
@@ -908,7 +908,7 @@ export const portfolioData = {
       description:
         "B2B import/export platform focused on Chinese products with real-time product listings and supplier directories",
       image: portfolioImage("ecommerce-websites/Alfa China.png"),
-      link: "#",
+      link: "",
       category: "E-commerce Websites",
       caseStudy: {
         overview:
@@ -970,7 +970,7 @@ export const portfolioData = {
       description:
         "Restaurant e-commerce with online food ordering, menu exploration, and delivery integration",
       image: portfolioImage("ecommerce-websites/Davis Grill.png"),
-      link: "#",
+      link: "",
       category: "E-commerce Websites",
       caseStudy: {
         overview:
@@ -1063,7 +1063,7 @@ export const portfolioData = {
       description:
         "High-end footwear label blending traditional Indian craftsmanship with modern e-commerce",
       image: portfolioImage("ecommerce-websites/Banjaaran.png"),
-      link: "#",
+      link: "",
       category: "E-commerce Websites",
       caseStudy: {
         overview:
@@ -1253,7 +1253,7 @@ export const portfolioData = {
       description:
         "Telemedicine app allowing pet owners to consult licensed veterinarians through chat or video calls with medical history tracking",
       image: portfolioImage("app-development/VetOnline.png"),
-      link: "#",
+      link: "",
       category: "App Development",
       subcategory: "Health / Veterinary / Telemedicine",
       caseStudy: {
@@ -1285,7 +1285,7 @@ export const portfolioData = {
       description:
         "App for diagnostic labs and field agents to coordinate sample collections with route management and real-time notifications",
       image: portfolioImage("app-development/Sample Collector.png"),
-      link: "#",
+      link: "",
       category: "App Development",
       subcategory: "Health / Diagnostics",
       caseStudy: {
@@ -1381,7 +1381,7 @@ export const portfolioData = {
       description:
         "App helping students explore, apply, and manage internships worldwide with listings and mentorship tools",
       image: portfolioImage("app-development/Eva Internships.webp"),
-      link: "#",
+      link: "",
       category: "App Development",
       subcategory: "Education / Career",
       caseStudy: {
@@ -1413,7 +1413,7 @@ export const portfolioData = {
       description:
         "Digital certificate management app for companies and learners to issue, store, and validate training credentials",
       image: portfolioImage("app-development/Eva Training Certificates.webp"),
-      link: "#",
+      link: "",
       category: "App Development",
       subcategory: "Education / Certification",
       caseStudy: {
@@ -1445,9 +1445,9 @@ export const portfolioData = {
       description:
         "Healthcare and lifestyle management app for patients and caregivers with medication reminders and health records",
       image: portfolioImage("app-development/Hayaty.webp"),
-      link: "#",
-      iosLink: "#",
-      androidLink: "#",
+      link: "",
+      iosLink: "",
+      androidLink: "",
       category: "App Development",
       subcategory: "Health / Wellness",
       caseStudy: {
@@ -1513,7 +1513,7 @@ export const portfolioData = {
       description:
         "Premium Arabic-language shopping platform with hand-picked product categories and modern UI",
       image: portfolioImage("app-development/Lafi.webp"),
-      link: "#",
+      link: "",
       category: "App Development",
       subcategory: "E-commerce",
       caseStudy: {
@@ -1705,7 +1705,7 @@ export const portfolioData = {
       description:
         "Digital travel companion for Dubai tourists with offline maps, sightseeing highlights, and audio guides",
       image: portfolioImage("app-development/Dubai Travel Guide by eTips.webp"),
-      link: "#",
+      link: "",
       category: "App Development",
       subcategory: "Travel / Tourism",
       caseStudy: {
@@ -1867,7 +1867,7 @@ export const portfolioData = {
       description:
         "Grocery delivery app connecting users to local stores for daily essentials with flexible delivery slots",
       image: portfolioImage("app-development/Fresh and Fresh.webp"),
-      link: "#",
+      link: "",
       category: "App Development",
       subcategory: "E-commerce / Grocery",
       caseStudy: {
@@ -1935,7 +1935,7 @@ export const portfolioData = {
       image: portfolioImage(
         "app-development/Crimson Classified Hub – Community-Driven Classifieds Platform.jpg"
       ),
-      link: "#",
+      link: "",
       category: "App Development",
       subcategory: "Classifieds / Community",
       caseStudy: {
@@ -1969,7 +1969,7 @@ export const portfolioData = {
       image: portfolioImage(
         "app-development/Dubai Classifieds Pulse – Hyperlocal Classified Listings Platform.jpg"
       ),
-      link: "#",
+      link: "",
       category: "App Development",
       subcategory: "Classifieds / Local",
       caseStudy: {
@@ -2003,7 +2003,7 @@ export const portfolioData = {
       image: portfolioImage(
         "app-development/Ember – AI-Powered Soulmate Matching & Conversation Platform.jpg"
       ),
-      link: "#",
+      link: "",
       category: "App Development",
       subcategory: "Dating / AI",
       caseStudy: {
@@ -2235,7 +2235,7 @@ export const portfolioData = {
       description:
         "Curated investment platform for early-stage crypto projects and blockchain startups with vetted listings and community voting",
       image: portfolioImage("blockchain/Earlynctr.png"),
-      link: "#",
+      link: "",
       category: "Blockchain",
       subcategory: "Crypto Investment / Startup Incubation",
       caseStudy: {
@@ -2267,7 +2267,7 @@ export const portfolioData = {
       description:
         "Analytics engine built for the Solana ecosystem providing DApp performance metrics, smart contract tracking, and real-time data visualization",
       image: portfolioImage("blockchain/Solalgo.png"),
-      link: "#",
+      link: "",
       category: "Blockchain",
       subcategory: "Blockchain Analytics / Developer Tools",
       caseStudy: {
@@ -2399,7 +2399,7 @@ export const portfolioData = {
       description:
         "Diverse collection of fast-paced arcade-style mini-games designed to keep users engaged with adrenaline-packed gameplay",
       image: portfolioImage("game development/2 3 4 Player Mini Games.webp"),
-      link: "#",
+      link: "",
       category: "Game Development",
       subcategory: "Action / Arcade Bundle",
       caseStudy: {

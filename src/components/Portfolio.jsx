@@ -94,18 +94,22 @@ const Card = ({ item }) => {
           className="h-full w-full object-cover transition-all duration-500 group-hover:scale-105"
         />
       </div>
-      <div className="absolute bottom-0 left-0 w-full p-5 flex flex-col gap-2 bg-gradient-to-r from-primary/90 via-primary/80 to-primary/60 backdrop-blur">
-        {/* <h3 className="font-medium text-center text-white text-xl">
+      {item.link && (
+        <div className="absolute bottom-0 left-0 w-full p-5 flex flex-col gap-2 bg-gradient-to-r from-primary/90 via-primary/80 to-primary/60 backdrop-blur">
+          {/* <h3 className="font-medium text-center text-white text-xl">
           {item.title}
         </h3> */}
-        <p className="text-center text-white/80 text-sm tracking-wide uppercase">
-          View case study
-        </p>
-      </div>
+          <p className="text-center text-white/80 text-sm tracking-wide uppercase">
+            View Project
+          </p>
+        </div>
+      )}
     </>
   );
 
-  const caseStudySlug = ''
+  const caseStudySlug = "";
+
+  // const caseStudySlug = !item.link ? item.caseStudy?.slug ?? item.slug : "";
   // item.caseStudy?.slug ?? item.slug;
 
   if (caseStudySlug) {
@@ -117,38 +121,31 @@ const Card = ({ item }) => {
         {content}
       </Link>
     );
+  } else if (item.link) {
+    return (
+      <a
+        href={item.link}
+        target="_blank"
+        rel="noreferrer"
+        className="group relative flex h-full w-full flex-col overflow-hidden rounded-xl border border-white/10 bg-gradient-to-b from-white/5 via-transparent to-black/40 shadow-2xl transition-transform duration-500 hover:-translate-y-2 hover:shadow-[0_35px_60px_-15px_rgba(15,23,42,0.75)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary"
+      >
+        {content}
+      </a>
+    );
   }
-
   return (
-    <a
-      href={item.link}
-      target="_blank"
-      rel="noreferrer"
-      className="group relative flex h-full w-full flex-col overflow-hidden rounded-xl border border-white/10 bg-gradient-to-b from-white/5 via-transparent to-black/40 shadow-2xl transition-transform duration-500 hover:-translate-y-2 hover:shadow-[0_35px_60px_-15px_rgba(15,23,42,0.75)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary"
-    >
+    <div className="group relative flex h-full w-full flex-col overflow-hidden rounded-xl border border-white/10 bg-gradient-to-b from-white/5 via-transparent to-black/40 shadow-2xl transition-transform duration-500 hover:-translate-y-2 hover:shadow-[0_35px_60px_-15px_rgba(15,23,42,0.75)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary">
       {content}
-    </a>
+    </div>
   );
 };
 
 const Portfolio = ({ page }) => {
-  const showWeb = useMemo(
-    () => !page || page === "web-development",
-    [page]
-  );
-  const showApp = useMemo(
-    () => !page || page === "app-development",
-    [page]
-  );
+  const showWeb = useMemo(() => !page || page === "web-development", [page]);
+  const showApp = useMemo(() => !page || page === "app-development", [page]);
 
-  const webProjects = useMemo(
-    () => portfolioData.webDevelopment,
-    []
-  );
-  const appProjects = useMemo(
-    () => portfolioData.appDevelopment,
-    []
-  );
+  const webProjects = useMemo(() => portfolioData.webDevelopment, []);
+  const appProjects = useMemo(() => portfolioData.appDevelopment, []);
 
   const [webSliderRef] = useKeenSlider(
     {

@@ -1343,38 +1343,38 @@ export const portfolioData = {
         services: ["Social Platform", "Mental Wellness", "Emotional Expression"],
       },
     }),
-    enrich({
-      id: 6,
-      title: "Eva People App",
-      description:
-        "HR and wellness platform helping companies monitor employee satisfaction and performance with survey tools and analytics",
-      image: portfolioImage("app-development/Eva People App.webp"),
-      link: "https://evapeople.com",
-      category: "App Development",
-      subcategory: "Corporate / HR",
-      caseStudy: {
-        overview:
-          "Eva People App empowers HR teams with employee insights and wellness tracking. We built a comprehensive platform featuring survey tools, analytics dashboards, and wellness monitoring that helps companies understand and improve employee satisfaction and performance.",
-        challenge:
-          "HR platforms must balance data collection with employee privacy and trust. The app needed to provide valuable insights to companies while ensuring employees feel their feedback is valued and their privacy is protected.",
-        approach: [
-          "Developed flexible survey tools that capture employee sentiment across multiple dimensions.",
-          "Built analytics dashboards that translate data into actionable insights for HR teams.",
-          "Created wellness tracking features that help companies support employee health and satisfaction.",
-        ],
-        outcome: [
-          "Helped companies identify and address employee satisfaction issues proactively.",
-          "Improved HR decision-making with data-driven insights into workforce trends.",
-          "Enhanced employee engagement through transparent feedback and wellness initiatives.",
-        ],
-        metrics: [
-          { label: "Insights", value: "Actionable" },
-          { label: "Decision-Making", value: "Data-Driven" },
-          { label: "Engagement", value: "Enhanced" },
-        ],
-        services: ["HR Platform", "Employee Analytics", "Wellness Tracking"],
-      },
-    }),
+    // enrich({
+    //   id: 6,
+    //   title: "Eva People App",
+    //   description:
+    //     "HR and wellness platform helping companies monitor employee satisfaction and performance with survey tools and analytics",
+    //   image: portfolioImage("app-development/Eva People App.webp"),
+    //   link: "https://evapeople.com",
+    //   category: "App Development",
+    //   subcategory: "Corporate / HR",
+    //   caseStudy: {
+    //     overview:
+    //       "Eva People App empowers HR teams with employee insights and wellness tracking. We built a comprehensive platform featuring survey tools, analytics dashboards, and wellness monitoring that helps companies understand and improve employee satisfaction and performance.",
+    //     challenge:
+    //       "HR platforms must balance data collection with employee privacy and trust. The app needed to provide valuable insights to companies while ensuring employees feel their feedback is valued and their privacy is protected.",
+    //     approach: [
+    //       "Developed flexible survey tools that capture employee sentiment across multiple dimensions.",
+    //       "Built analytics dashboards that translate data into actionable insights for HR teams.",
+    //       "Created wellness tracking features that help companies support employee health and satisfaction.",
+    //     ],
+    //     outcome: [
+    //       "Helped companies identify and address employee satisfaction issues proactively.",
+    //       "Improved HR decision-making with data-driven insights into workforce trends.",
+    //       "Enhanced employee engagement through transparent feedback and wellness initiatives.",
+    //     ],
+    //     metrics: [
+    //       { label: "Insights", value: "Actionable" },
+    //       { label: "Decision-Making", value: "Data-Driven" },
+    //       { label: "Engagement", value: "Enhanced" },
+    //     ],
+    //     services: ["HR Platform", "Employee Analytics", "Wellness Tracking"],
+    //   },
+    // }),
     // enrich({
     //   id: 7,
     //   title: "Eva Internships",

@@ -69,7 +69,7 @@ const FAQSection = () => {
                 onClick={() => handleToggle(index)}
                 aria-expanded={isOpen}
               >
-                <span className="inline-flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-full bg-primary/10 text-sm font-semibold text-primary">
+                <span className="hidden md:inline-flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-full bg-primary/10 text-sm font-semibold text-primary">
                   {String(index + 1).padStart(2, "0")}
                 </span>
                 <span className="flex-1 text-lg font-semibold text-[#0f172a]">
@@ -86,10 +86,10 @@ const FAQSection = () => {
               </button>
               <div
                 className={`overflow-hidden transition-all duration-300 ease-out ${
-                  isOpen ? "max-h-64 pb-5" : "max-h-0"
+                  isOpen ? "max-h-72 pb-5" : "max-h-0"
                 }`}
               >
-                <p className="pl-14 pr-4 text-base leading-relaxed text-slate-600">
+                <p className="md:pl-14 pl-4 pr-4 text-base leading-relaxed text-slate-600">
                   {item.answer}
                 </p>
               </div>

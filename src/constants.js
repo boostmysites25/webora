@@ -388,7 +388,7 @@ export const allServices = [
     id: 9,
     img1: require("./assets/services-details/uiux-1.webp"),
     img2: require("./assets/services-details/uiux-2.webp"),
-    title: "UI/UX Design",
+    title: "UI-UX Design",
     smallPara:
       "Great design drives engagement. Our UI/UX services create intuitive, user-centric interfaces that enhance usability and delight users.\n\nWe focus on accessibility, interactivity, and seamless user experiences across devices.",
     keyBenefits: [
